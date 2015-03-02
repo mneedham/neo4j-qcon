@@ -1,0 +1,1828 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Register now for QCon London, a practitioner-driven conference designed for team leads, architects and project management, that tracks innovation in enterprise software." />
+<meta property="og:image" content="http://qconlondon.com/sites/all/themes/qconbs/images/qcon_london.jpg" />
+<meta property="og:url" content="http://qconlondon.com/schedule" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/all/themes/qconbs/qcon-favicon.ico" type="image/vnd.microsoft.icon" />
+<meta property="og:title" content="Software Development Conference QCon London 2015" />
+<link rel="canonical" href="http://qconlondon.com/schedule" />
+<link rel="dns-prefetch" href="//d3s75c3xtnyqxt.cloudfront.net" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="description" content="Register now for QCon London, a practitioner-driven conference designed for team leads, architects and project management, that tracks innovation in enterprise software." />
+<meta name="robots" content="follow, index" />
+<link rel="image_src" href="sites/all/themes/qconbs/images/qcon_london.jpg" />
+<meta name="generator" content="QCon CMS" />
+<link rel="shortlink" href="http://qconlondon.com/schedule" />
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <link rel="icon" sizes="192x192" href="/sites/all/themes/qconbs/images/chrome-touch-icon-192x192.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <link rel="apple-touch-icon-precomposed" href="/sites/all/themes/qconbs/images/icon-128x128.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="/sites/all/themes/qconbs/images/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+    <title>QCon London 2015 | Software Development Conference</title>
+    <link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_LGa8NdDhGMn3R__0CK-E2UKtodvar7uToH2jNrGMITM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_uQsnHwHs67oVdCurY1pDeIdaxaY2FbSGbwKwHR49-A8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_eZ3p35qbpMElau5YqPT6uqOLsCc1hWBKiKaQN1wwWzk.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_E11FoOPDUEwg-H-Ow1SBC1AvIfnHhHBNuIEMrq8g4bA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_aLBLMssI0sYaqRNLWpFvG43sKqaZBtiu4knF2g1_6nw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_T5fY9QTcDzLtGb03tG6cjl6Soc4QCLl30ZRD6xmQXn4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_RvIDmzrtXDKiFPnowA7bV9EqitXb1yvw5DsbbiiQ6f4.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_z84WG-WNrwoGSDVMKQdupOU9guISaMY2S5ch283C8qY.css" media="all" />
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_cejBscV2-gn4OgvUup9XD19q4fQF34ehgmx38ZKCCUE_panopoly-fonts-ie-open-sans.css.css" media="all" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_d0DHTZXAzgPaSB-DbyC0MbO_nfhe3_7WL41Uy-llpgk_panopoly-fonts-ie-open-sans-bold.css.css" media="all" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_i-aeqQbmFO8u-ubJ-ppu-AsQ7bJ7HHQr9rPMjtAi4XU_panopoly-fonts-ie-open-sans-italic.css.css" media="all" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_lcwBdVV6Sf7zp3eoeOw_xiLzeRWhhaBL2NpWPGpO2XI_panopoly-fonts-ie-open-sans-bold-italic.css.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_wigS70piKQxAQ-PhuV0Kv5yYuTDEoD4yq0VyEj5L7HY.css" media="all" />
+    <script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_0gj6QcpfRH2jzTbCQqf7kEkm4MXY0UA_sRhwPc8jC1o.js"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_bXejI0sehoRh1zeXYzFH-8KNh5shUO5q_TNck08xDlU.js"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_I2eMVPap5LfJhMYJU6obVjUBd9Y9rB-FjpOWi1-yvqU.js"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_vuCd40dUPCHEVUhrM4uo14FpT6Kb7ko4uSBJ3mIUuI8.js"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/all/modules/lightbox2/js/lightbox.js?1425316208"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_rv_BKYv7yieH0IgHddhWHDC-bWGan8yiJbusyOpr0mw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-9611573-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_xza51gRKd-DDm8ZutFDynCREGOzyWI6IOk-MIpwpULI.js"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_g7-1g8yU9r88wguv5ex5NbrPrQ7UeBrq9DQODGKLQmg.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"qconbs","theme_token":"rDDcnwlWL321clLeihpGsGgKRSf_8ZlwHrCuCrJ1_-E","js":{"sites\/all\/modules\/panopoly_widgets\/panopoly-widgets.js":1,"sites\/all\/modules\/panopoly_widgets\/jquery-ui-tabs-rotate.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/qtip\/library\/jquery.qtip.js":1,"sites\/all\/modules\/qtip\/js\/qtip.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/panopoly_admin\/panopoly-admin.js":1,"sites\/all\/modules\/panopoly_magic\/panopoly-magic.js":1,"sites\/all\/modules\/panopoly_theme\/js\/panopoly-accordion.js":1,"sites\/all\/modules\/qcon_schedule\/js\/qcon_schedule.js":1,"sites\/all\/modules\/resp_img\/resp_img.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox_video.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/libraries\/qconbs_bootstrap\/js\/bootstrap.min.js":1,"sites\/all\/themes\/qconbs\/js\/qconbs.js":1,"sites\/all\/themes\/qconbs\/js\/responsive-tables.js":1,"sites\/all\/themes\/qconbs\/js\/eqheight.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/qtip\/library\/jquery.qtip.css":1,"sites\/all\/modules\/qtip\/css\/qtip.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-fonts.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-dropbutton.css":1,"sites\/all\/modules\/panopoly_magic\/css\/panopoly-magic.css":1,"sites\/all\/modules\/panopoly_theme\/css\/panopoly-featured.css":1,"sites\/all\/modules\/panopoly_theme\/css\/panopoly-accordian.css":1,"sites\/all\/modules\/panopoly_widgets\/panopoly-widgets.css":1,"sites\/all\/modules\/qcon_registrations\/css\/qcon_registrations.css":1,"sites\/all\/modules\/qcon_schedule\/css\/qcon_schedule.css":1,"sites\/all\/modules\/qcon_schedule\/css\/qcon_schedule_print.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/default\/files\/sl_sprites.css":1,"sites\/all\/themes\/qconbs\/layouts\/qconbase\/qconbase.css":1,"sites\/all\/themes\/qconbs\/layouts\/qconfooter\/qconfooter.css":1,"sites\/all\/themes\/qconbs\/layouts\/qconheader\/qconheader.css":1,"http:\/\/netdna.bootstrapcdn.com\/font-awesome\/4.0.3\/css\/font-awesome.min.css":1,"sites\/all\/libraries\/qconbs_bootstrap\/css\/bootstrap.min.css":1,"sites\/all\/themes\/kalatheme\/css\/tweaks.css":1,"sites\/all\/themes\/kalatheme\/css\/panopoly.css":1,"sites\/all\/themes\/qconbs\/css\/main.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-fonts-ie-open-sans.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-bold.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-italic.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-bold-italic.css":1,"sites\/all\/modules\/panopoly_images\/panopoly-images.css":1}},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":650,"iframe_height":450,"iframe_border":1,"enable_video":1,"flvPlayer":"\/","flvFlashvars":""},"CToolsModal":{"modalSize":{"type":"scale","width":".9","height":".9","addWidth":0,"addHeight":0,"contentRight":25,"contentBottom":75},"modalOptions":{"opacity":".55","background-color":"#FFF"},"animationSpeed":"fast","modalTheme":"CToolsModalDialog","throbberTheme":"CToolsModalThrobber"},"qtip":{"target_position":"top_right","tooltip_position":"bottom_left","show_speech_bubble_tip":true,"show_speech_bubble_tip_side":false,"speech_bubble_size":12,"show_speech_bubble_tip_solid":false,"show_shadow":false,"rounded_corners":false,"color":"","custom_color":"","show_event_type":"mouseenter","hide_event_type":"mouseleave","show_webform_descriptions":false,"additional_elements":""},"respImg":{"default_suffix":"","current_suffix":false,"forceRedirect":false,"forceResize":false,"reloadOnResize":false,"useDevicePixelRatio":false,"suffixes":{"":1}},"statuses":{"autofocus":false,"noautoclear":false,"maxlength":"400","hideLength":"0","refreshLink":false},"spotlight_settings":{"rotation_time":4000},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"clientsideValidation":{"general":{"months":{"January":1,"Jan":1,"February":2,"Feb":2,"March":3,"Mar":3,"April":4,"Apr":4,"May":5,"June":6,"Jun":6,"July":7,"Jul":7,"August":8,"Aug":8,"September":9,"Sep":9,"October":10,"Oct":10,"November":11,"Nov":11,"December":12,"Dec":12}}}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+    <script>
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+    </script>
+    <![endif]-->
+  
+</head>
+<body class="html not-front not-logged-in no-sidebars page-schedule region-content" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-focusable element-invisible">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <!-- Page Main -->
+  <div id="main-wrapper" class="clearfix">
+    <main id="main" class="clearfix" role="main">
+      <div id="top-content">
+        <div class="column container">
+          <a id="main-content"></a>
+          
+          
+          
+                  </div>
+      </div> <!-- /.section, /#top-content -->
+
+      <div id="content">
+        <div class="column ">
+            <div class="region region-content">
+    
+<div class="panel-display qconbase clearfix " >
+  <section class="section">
+    <div class="qcon-base-top">
+        <div class="qcon-top-col">
+          <div class="panel-pane pane-panels-mini pane-header-minipanel" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panel-display qconheader clearfix " id="mini-panel-header_minipanel">
+  <section class="section">
+    <div class="header"> <!--container-->
+      <div class="row">
+        <div class="col-xs-4 col-sm-5 qcon-header-left-col">
+            <div class="row">
+                <div class="col-sm-5 qcon-header-left-left-col"><div class="panel-pane pane-custom pane-4 qcon-logo-header" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="logo"><a href="/"><img src="/sites/all/themes/qconbs/images/logo.png" alt="QCon" class="logo-normal" border="0" /><img src="/sites/all/themes/qconbs/images/logo2x.png" alt="QCon" class="logo-retina" border="0" /></a></div>
+  </div>
+
+  
+  </div>
+</div>
+                <div class="col-sm-7 qcon-header-left-right-col"><div class="panel-pane pane-custom pane-5 qcon-conference-dates-header" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="conference-dates small strong"><span class="caps green">Tutorials:</span> <span class="blue">March 2-3, 2015</span><br /> <span class="caps green">Conference:</span> <span class="blue">March 4-6, 2015</span></div>
+  </div>
+
+  
+  </div>
+</div>
+            </div>            
+        </div>
+        <div class="col-xs-8 col-sm-7 qcon-header-rigth-col">
+            <div class="row">
+                <div class="col-sm-12 qcon-header-right-top-col"><div class="panel-pane pane-custom pane-7 qcon-follow-header" >
+  
+      
+  
+  <div class="pane-content">
+    <ul class="social">
+<li><a class="twitter icon replace" href="https://twitter.com/QConLondon" target="_blank">Twitter</a></li>
+<li><a class="facebook icon replace" href="https://www.facebook.com/QCon" target="_blank">Facebook</a></li>
+<li><a class="googleplus icon replace" href="https://plus.google.com/+Qconferences1" target="_blank">Google Plus</a></li>
+<!--li><p><a class="youtube icon replace" href="https://www.youtube.com/channel/UCLI_iq5wEySHTOb7xk2F7Ww" target="_blank">YouTube</a></li>
+<li><a class="flickr icon replace" href="http://www.flickr.com/photos/qconpictures/collections/" target="_blank">Flickr</a></li--></ul>
+  </div>
+
+  
+  </div>
+</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7 qcon-header-right-left-col"><div class="panel-pane pane-menu-tree pane-menu-qcon-menu-main-header qcon-menu-main-header" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-menu-qcon-menu-main-header-1 menu-name-menu-qcon-menu-main-header parent-mlid-0 menu-level-1">
+  <ul class="menu clearfix" role="menu"><li class="first leaf active-trail active menu-mlid-3063" role="presentation"><a href="/schedule#day-2" title="" class="active-trail active" role="menuitem">Schedule</a></li>
+<li class="leaf menu-mlid-2950" role="presentation"><a href="/speakers" role="menuitem">Speakers</a></li>
+<li class="last leaf menu-mlid-2951" role="presentation"><a href="/sponsors" role="menuitem">Sponsors</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+</div>
+                <div class="col-sm-5 qcon-header-right-right-col"><div class="panel-pane pane-custom pane-6 qcon-btn-register-header hidden-xs hidden-sm" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="cta"><a class="main-btn" href="http://qconlondon.com/schedule" target="_blank"> <span>QCon London 2015<br />SOLD OUT!!</span></a></div>
+  </div>
+
+  
+  </div>
+</div>
+            </div>
+        </div>        
+    </div>
+    </div> <!-- /.container -->
+</section>
+</div><!-- /.qconheader -->
+  </div>
+
+  
+  </div>
+        </div>
+    </div> <!-- /.top -->
+    <div class="qcon-base-main">
+        <div class="qcon-main-col">
+          <div class="panel-pane pane-block pane-qcon-schedule-qcon-schedule container pane-qcon-schedule" >
+  
+        <h4 class="pane-title">QCon Schedule</h4>
+    
+  
+  <div class="pane-content">
+    
+<div id="day-1" class="title-jump"></div>
+<h3 class="center semistrong">Monday March 2, 2015 Tutorials Day #1</h3>
+
+<div class="table-responsive">
+<table class="tutorial-full">
+      <colgroup>
+        <col span="1" class="wide">
+				<col>
+        <col class="event" >
+		<col>
+      </colgroup>
+      <thead>
+        <tr class="semistrong titles">
+          <th class="bgwhite"> Location </th>
+		  	        <th class="bgwhite"> SOD - 12:00 PM</th>
+		            <th class="event"> 12:00 - 13:00 </th>
+          <th class="bgwhite"> 13:00 - EOD</th>
+        </tr>
+      </thead>
+	  <tbody>
+					<tr>
+				<td class="idrow">Wesley, 4th flr.</td>
+																											<td class="tutorial morning nid-2483 full-day">
+						<a href="/tutorial/how-navigate-politics-your-complex-environment">Navigating Politics in Agile/Lean Teams [Sold out]</a>						<br/>
+						By <a href="/speakers/katherine-kirk" style="font-style: normal;">Katherine Kirk</a><br>[9:00 - 4:00]					</td>
+				
+									<td rowspan="6" class="event lunch" style="background: url(/sites/all/themes/qconbs/images/no.png) repeat;font-weigh:bold;" >
+						<p style="text-align:center; color:black;">
+						Lunch						</p>
+					</td>
+																		<td class="tutorial afternoon nid-2483 full-day">
+						 Tutorial continued					</td>
+							</tr>
+					<tr>
+				<td class="idrow">Chaucer, 4th flr.</td>
+																											<td class="tutorial morning nid-2508 full-day">
+						<a href="/tutorial/hands-apache-spark">Hands on with Apache Spark [Sold Out]</a>						<br/>
+						By <a href="/speakers/hien-luu" style="font-style: normal;">Hien Luu</a><br>[9:00 - 4:00]					</td>
+				
+													<td class="tutorial afternoon nid-2508 full-day">
+						 Tutorial continued					</td>
+							</tr>
+					<tr>
+				<td class="idrow">Keats, 4th flr.</td>
+																											<td class="tutorial morning nid-2544 full-day">
+						<a href="/tutorial/java-performance-tuning">Java Performance Tuning [Sold out]</a>						<br/>
+						By <a href="/speakers/ben-evans" style="font-style: normal;">Ben Evans</a><br>[9:00 - 4:00]					</td>
+				
+													<td class="tutorial afternoon nid-2544 full-day">
+						 Tutorial continued					</td>
+							</tr>
+					<tr>
+				<td class="idrow">Wordsworth, 4th flr.</td>
+																											<td class="tutorial morning nid-2546 ">
+						<a href="/tutorial/mongodb-and-hadoop">MongoDB and Hadoop [Sold out]</a>						<br/>
+						By <a href="/speakers/justin-lee" style="font-style: normal;">Justin Lee</a><br>[9:00 - 12:00]					</td>
+				
+																									<td class="tutorial afternoon nid-2588">
+						 <a href="/tutorial/html5-angularjs-groovy-java-and-mongodb-all-together"> HTML5, AngularJS, Groovy, Java and MongoDB all together [Sold out]</a>						 <br/>
+						 By <a href="/speakers/trisha-gee" style="font-style: normal;">Trisha Gee</a><br>[1:00 - 4:00] 						</td>
+												</tr>
+					<tr>
+				<td class="idrow">Byron, 4th flr.</td>
+																											<td class="tutorial morning nid-2478 full-day">
+						<a href="/tutorial/java-8-lambda-expressions-streams">Java 8 Lambda Expressions &amp; Streams [Sold out]</a>						<br/>
+						By <a href="/speakers/raoul-gabriel-urma" style="font-style: normal;"> Raoul-Gabriel    Urma</a><br>[9:00 - 4:00]					</td>
+				
+													<td class="tutorial afternoon nid-2478 full-day">
+						 Tutorial continued					</td>
+							</tr>
+					<tr>
+				<td class="idrow">Westminster, 4th flr.</td>
+																											<td class="tutorial morning nid-2488 full-day">
+						<a href="/tutorial/design-implementation-microservices"> Design &amp; Implementation of Microservices [Sold out]</a>						<br/>
+						By <a href="/speakers/james-lewis" style="font-style: normal;">James Lewis</a><br>[9:00 - 4:00]					</td>
+				
+													<td class="tutorial afternoon nid-2488 full-day">
+						 Tutorial continued					</td>
+							</tr>
+			  </tbody>
+</table>
+</div>
+  <div class="page-break"></div>
+
+
+<div id="day-2" class="title-jump"></div>
+<h3 class="center semistrong">Tuesday March 3, 2015 Tutorials Day #2</h3>
+
+<div class="table-responsive">
+<table class="tutorial-full">
+      <colgroup>
+        <col span="1" class="wide">
+				<col>
+        <col class="event" >
+		<col>
+      </colgroup>
+      <thead>
+        <tr class="semistrong titles">
+          <th class="bgwhite"> Location </th>
+		  	        <th class="bgwhite"> SOD - 12:00 PM</th>
+		            <th class="event"> 12:00 - 13:00 </th>
+          <th class="bgwhite"> 13:00 - EOD</th>
+        </tr>
+      </thead>
+	  <tbody>
+					<tr>
+				<td class="idrow">Rutherford, 4th flr.</td>
+																											<td class="tutorial morning nid-2496 full-day">
+						<a href="/tutorial/understanding-latency-application-responsiveness">Understanding Latency &amp; Application Responsiveness</a>						<br/>
+						By <a href="/speakers/gil-tene" style="font-style: normal;">Gil Tene</a><br>[9:00 - 4:00]					</td>
+				
+									<td rowspan="7" class="event lunch" style="background: url(/sites/all/themes/qconbs/images/no.png) repeat;font-weigh:bold;" >
+						<p style="text-align:center; color:black;">
+						Lunch						</p>
+					</td>
+																		<td class="tutorial afternoon nid-2496 full-day">
+						 Tutorial continued					</td>
+							</tr>
+					<tr>
+				<td class="idrow">Shelley, 4th flr.</td>
+																											<td class="tutorial morning nid-2503 full-day">
+						<a href="/tutorial/working-effectively-distributed-agile-teams">Working effectively in distributed agile teams [Sold out]</a>						<br/>
+						By <a href="/speakers/shane-hastie" style="font-style: normal;">Shane Hastie</a><br>[9:00 - 4:00]					</td>
+				
+													<td class="tutorial afternoon nid-2503 full-day">
+						 Tutorial continued					</td>
+							</tr>
+					<tr>
+				<td class="idrow">Henry Morre, 4th flr.</td>
+																											<td class="tutorial morning nid-2480 full-day">
+						<a href="/tutorial/simple-sketches-diagramming-your-software-architecture">Simple sketches for diagramming your software architecture</a>						<br/>
+						By <a href="/speakers/simon-brown" style="font-style: normal;">Simon Brown</a><br>[9:00 - 4:00]					</td>
+				
+													<td class="tutorial afternoon nid-2480 full-day">
+						 Tutorial continued					</td>
+							</tr>
+					<tr>
+				<td class="idrow">Abbey, 4th flr.</td>
+																											<td class="tutorial morning nid-2484 full-day">
+						<a href="/tutorial/docker-introduction">Introduction to Docker [Sold out]</a>						<br/>
+						By <a href="/speakers/quinten-krijger" style="font-style: normal;">Quinten Krijger </a><br>[9:00 - 4:00]					</td>
+				
+													<td class="tutorial afternoon nid-2484 full-day">
+						 Tutorial continued					</td>
+							</tr>
+					<tr>
+				<td class="idrow">Chaucer, 4th flr.</td>
+																											<td class="tutorial morning nid-2485 full-day">
+						<a href="/tutorial/retrospectives-next-level">Retrospectives - the next level</a>						<br/>
+						By <a href="/speakers/aino-corry" style="font-style: normal;">Aino Corry</a><br>[9:00 - 4:00]					</td>
+				
+													<td class="tutorial afternoon nid-2485 full-day">
+						 Tutorial continued					</td>
+							</tr>
+					<tr>
+				<td class="idrow">Keats, 4th flr.</td>
+																											<td class="tutorial morning nid-2487 full-day">
+						<a href="/tutorial/swift-introduction">Swift Essentials - introduction to Swift</a>						<br/>
+						By <a href="/speakers/alex-blewitt" style="font-style: normal;">Alex Blewitt</a><br>[9:00 - 4:00]					</td>
+				
+													<td class="tutorial afternoon nid-2487 full-day">
+						 Tutorial continued					</td>
+							</tr>
+					<tr>
+				<td class="idrow">Wordsworth, 4th flr.</td>
+																											<td class="tutorial morning nid-2489 full-day">
+						<a href="/tutorial/practical-sustainable-continuous-delivery">Practical &amp; Sustainable Continuous Delivery [Sold out] </a>						<br/>
+						By <a href="/speakers/matthew-skelton" style="font-style: normal;">Matthew Skelton</a><br>[9:00 - 4:00]					</td>
+				
+													<td class="tutorial afternoon nid-2489 full-day">
+						 Tutorial continued					</td>
+							</tr>
+			  </tbody>
+</table>
+</div>
+
+	<div id="day-3" class="title-jump"></div>
+  <h3 class="center semistrong">
+    Wednesday March 4, 2015 Tracks Day #1            <a href="/sites/default/files/pdf/track1.pdf" download="track-day-1.pdf">
+                <img class="hidden-xs schedule-ico-pdf-down" src="http://d3s75c3xtnyqxt.cloudfront.net/sites/all/themes/qconbs/images/ico-pdf-dwnl.v3.jpg">
+                <div class="visible-xs mobile-download-track">Download in PDF format</div>
+            </a>
+    </h3>
+<div class="table-responsive">
+	<table class="schedule-full">
+	 <colgroup>
+       <col span="1" class="wide odd-column" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   	 </colgroup>
+	 <tbody>
+																		<tr class="keynote-row" >
+					<td class="time" >8:30 AM</td>
+					<td colspan="7" class="intro keynote nid-2504">
+								                    <br/><span class="keynote-pre-intro">Registrations opens at 7.30 - Come early to avoid the lines.</span><br/><br/><span class="keynote-intro">Conference Introduction and Keynote:</span><br/>							<a href="/keynote/moon" class="keynote-title">To the Moon</a>							<br /> by							<a href="/speakers/russ-olsen" style="font-style: normal;" class="keynote-speaker">Russ Olsen</a> <span class="keynote-speaker-shorttitle">Author of "Eloquent Ruby" and ‎Vice President at Cognitect</span>
+															<br/>
+	                            	                            	                                <img class="alt-as-qtip" src="sites/all/modules/qcon_schedule/images/no-slides.png" data-alt="No Slides will be published" />
+	                            							
+							<br/>
+				            Fleming, 3rd flr.
+		                												</td>
+				</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >9:50 AM</td>
+					<td colspan="7" class="event social_event nid-551">
+													Break											</td>
+				</tr>
+							
+				<tr class="track-th">
+					<td>Track</td>
+                    																 						<td  class="track track-nid-2411">
+									<a href="/track/architecture-improvements" class="track-title">Architecture Improvements  </a>									<br />
+									<a href="/speakers/aino-corry" style="font-style: normal;" class="track-host">Aino Corry</a>								</td>
+															                    																 						<td  class="track track-nid-2417">
+									<a href="/track/big-data-frameworks-big-data-architectures-and-data-science" class="track-title">Big Data Frameworks, Architectures, and Data Science</a>									<br />
+									<a href="/speakers/paul-miller" style="font-style: normal;" class="track-host">Paul  Miller</a>								</td>
+															                    																 						<td  class="track track-nid-2418">
+									<a href="/track/devops-and-continuous-delivery-code-beyond-dev-team" class="track-title">DevOps and Continuous Delivery: Code Beyond the Dev Team</a>									<br />
+									<a href="/speakers/eoin-woods" style="font-style: normal;" class="track-host">Eoin Woods</a>								</td>
+															                    																 						<td  class="track track-nid-2408">
+									<a href="/track/mind-matters-work" class="track-title">Mind Matters at Work</a>									<br />
+									<a href="/speakers/portia-tung" style="font-style: normal;" class="track-host">Portia Tung</a>								</td>
+															                    																 						<td  class="track track-nid-2421">
+									<a href="/track/java-not-dead-yet" class="track-title">Java - Not Dead Yet</a>									<br />
+									<a href="/speakers/trisha-gee" style="font-style: normal;" class="track-host">Trisha Gee</a>								</td>
+															                    																 						<td  class="track track-nid-2594">
+									<a href="/track/sponsored-solution-track-i" class="track-title">Sponsored Solution Track I</a>									<br />
+									<a href="/speakers/nitin-bharti" style="font-style: normal;" class="track-host">Nitin Bharti</a>								</td>
+															                    																 						<td  class="track track-nid-2615">
+									<a href="/track/sponsored-solution-track-2" class="track-title">Sponsored Solution Track II</a>									<br />
+									<a href="/speakers/nitin-bharti" style="font-style: normal;" class="track-host">Nitin Bharti</a>								</td>
+															                    				</tr>
+				                <tr class="track-location-th">
+                    <td>Location</td>
+
+                                         <td>
+                        <span class="track-location">Fleming, 3rd flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Whittle, 3rd flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Mountbatten, 6th flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Elizabeth Windsor, 5th flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Churchill, G flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Abbey, 4th flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Rutherford, 4th flr.</span>
+                     </td>
+                                    </tr>
+														<tr class="presentations-row" >
+					<td class="time" >10:20 AM</td>
+											
+					<td class="presentation nid-2453">
+					   								<a href="/presentation/evolutionary-architecture-and-micro-services-match-enabled-continuous-delivery" class="presentation-title">Evolutionary Architecture and Micro-Services - A Match Enabled by Continuous Delivery</a><br/><a href="/speakers/rebecca-parsons" style="font-style: normal;" class="presentation-speaker">Rebecca Parsons</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2492">
+					   								<a href="/presentation/using-cassandra-scale-soundcloud" class="presentation-title">How SoundCloud uses Cassandra</a><br/><a href="/speakers/emily-green" style="font-style: normal;" class="presentation-speaker">Emily  Green</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2461">
+					   								<a href="/presentation/devops-and-need-speed" class="presentation-title">DevOps and the Need for Speed</a><br/><a href="/speakers/stephen-thair" style="font-style: normal;" class="presentation-speaker">Stephen Thair</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2448">
+					   								<a href="/presentation/neuro-diversity-and-agile-what-leading-experts-autism-creativity-and-psychology" class="presentation-title">Neuro-diversity and agile</a><br/><a href="/speakers/sallyann-freudenberg" style="font-style: normal;" class="presentation-speaker">Sallyann  Freudenberg</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2470">
+					   								<a href="/presentation/java-8-anger" class="presentation-title">Java 8 in Anger</a><br/><a href="/speakers/trisha-gee" style="font-style: normal;" class="presentation-speaker">Trisha Gee</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2597">
+					   								<a href="/presentation/apis-change-lifestyles" class="presentation-title">APIs that Change Lifestyles</a><br/><a href="/speakers/senaka-fernando" style="font-style: normal;" class="presentation-speaker">Senaka Fernando</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2618">
+					   								<a href="/presentation/tbd-13" class="presentation-title">Elasticsearch powers the Citizen Advice Bureau (CAB) to monitor trends in society before they become issues</a><br/><a href="/speakers/peter-passaro" style="font-style: normal;" class="presentation-speaker">Peter Passaro</a>&nbsp;&amp; <br /> <a href="/speakers/ian-ansell" style="font-style: normal;" class="presentation-speaker">Ian Ansell</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >11:10 AM</td>
+					<td colspan="7" class="event social_event nid-552">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >11:30 AM</td>
+											
+					<td class="presentation nid-2512">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Architecture Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2494">
+					   								<a href="/presentation/don%E2%80%99t-let-data-gravity-crush-your-infrastructure" class="presentation-title"> Don’t let Data Gravity crush your infrastructure</a><br/><a href="/speakers/dave-mccrory" style="font-style: normal;" class="presentation-speaker">Dave McCrory </a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2516">
+					   								<a href="/presentation/rationale-continuous-delivery-culture-and-practice-good-software-development" class="presentation-title">The Rationale for Continuous Delivery (The culture and practice of good software development)</a><br/><a href="/speakers/dave-farley" style="font-style: normal;" class="presentation-speaker">Dave Farley</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2442">
+					   								<a href="/presentation/wired-connect-creating-great-relationships-human-nature" class="presentation-title">Wired to Connect  - Creating great relationships is human nature</a><br/><a href="/speakers/jenni-jepsen" style="font-style: normal;" class="presentation-speaker">Jenni Jepsen</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2471">
+					   								<a href="/presentation/scala-enterprise" class="presentation-title">Scala in the enterprise</a><br/><a href="/speakers/peter-pilgrim" style="font-style: normal;" class="presentation-speaker">Peter Pilgrim</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2604">
+					   								<a href="/presentation/wrangling-data-iot-rodeo" class="presentation-title">Wrangling data at the IOT rodeo</a><br/><a href="/speakers/damien-dallimore" style="font-style: normal;" class="presentation-speaker">Damien  Dallimore</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2608">
+					   								<a href="/presentation/microservices-made-easy-spring-cloud-and-netflix-oss" class="presentation-title">Microservices Made Easy with Spring Cloud and Netflix OSS</a><br/><a href="/speakers/dave-syer" style="font-style: normal;" class="presentation-speaker">Dave Syer</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row lunch" >
+					<td class="time" >12:20 PM</td>
+					<td colspan="7" class="event social_event nid-553">
+													Lunch 											</td>
+				</tr>
+							
+				<tr class="track-th">
+					<td>Track</td>
+                    																						<td class="track continuation track-nid-2411" > (Track cont.) </td>
+														                    																						<td class="track continuation track-nid-2417" > (Track cont.) </td>
+														                    																						<td class="track continuation track-nid-2418" > (Track cont.) </td>
+														                    																 						<td  class="track track-nid-2409">
+									<a href="/track/engineering-culture" class="track-title">Engineering Culture</a>									<br />
+									<a href="/speakers/portia-tung" style="font-style: normal;" class="track-host">Portia Tung</a>								</td>
+															                    																						<td class="track continuation track-nid-2421" > (Track cont.) </td>
+														                    																						<td class="track continuation track-nid-2594" > (Track cont.) </td>
+														                    																						<td class="track continuation track-nid-2615" > (Track cont.) </td>
+														                    				</tr>
+														<tr class="presentations-row" >
+					<td class="time" >1:20 PM</td>
+											
+					<td class="presentation nid-2431">
+					   								<a href="/presentation/treat-your-code-crime-scene" class="presentation-title">Treat your Code as a Crime Scene</a><br/><a href="/speakers/adam-tornhill" style="font-style: normal;" class="presentation-speaker">Adam Tornhill</a>
+                                    
+																	<br/>
+		                            		                            		                                <img class="alt-as-qtip" src="sites/all/modules/qcon_schedule/images/no-slides.png" data-alt="No Slides will be published" />
+		                            								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2515">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Big Data Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2438">
+					   								<a href="/presentation/tools-collaboration-and-conways-law-how-choose-and-use-tools-effectively-continuous" class="presentation-title">Continuous Delivery: Tools, Collaboration, and Conway&#039;s Law</a><br/><a href="/speakers/matthew-skelton" style="font-style: normal;" class="presentation-speaker">Matthew Skelton</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2433">
+					   								<a href="/presentation/power-hope-getting-you-here-there" class="presentation-title">The Power of Hope: Getting You from Here to There</a><br/><a href="/speakers/portia-tung" style="font-style: normal;" class="presentation-speaker">Portia Tung</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2472">
+					   								<a href="/presentation/refactoring-functional" class="presentation-title">Refactoring to Functional</a><br/><a href="/speakers/hadi-hariri" style="font-style: normal;" class="presentation-speaker">Hadi Hariri</a>
+                                    
+																	<br/>
+		                            		                            		                                <img class="alt-as-qtip" src="sites/all/modules/qcon_schedule/images/no-slides.png" data-alt="No Slides will be published" />
+		                            								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2599">
+					   								<a href="/presentation/iot-idea-operation-30-minutes-using-services-and-paas" class="presentation-title">From IoT idea to operation in 30 minutes using services and a PaaS</a><br/><a href="/speakers/mark-vanderwiele" style="font-style: normal;" class="presentation-speaker">Mark  Vanderwiele</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2606">
+					   								<a href="/presentation/principles-high-load" class="presentation-title">Principles of High Load</a><br/><a href="/speakers/peter-milne" style="font-style: normal;" class="presentation-speaker">Peter Milne</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >2:10 PM</td>
+					<td colspan="7" class="event social_event nid-554">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >2:30 PM</td>
+											
+					<td class="presentation nid-2450">
+					   								<a href="/presentation/architect%E2%80%99s-mindset" class="presentation-title">An Architect’s World View</a><br/><a href="/speakers/colin-garlick" style="font-style: normal;" class="presentation-speaker">Colin Garlick</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2495">
+					   								<a href="/presentation/taste-random-decision-forests-apache-spark" class="presentation-title">A Taste of Random Decision Forests on Apache Spark</a><br/><a href="/speakers/sean-owen" style="font-style: normal;" class="presentation-speaker">Sean Owen</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2517">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">DevOps and Continuous Delivery Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2434">
+					   								<a href="/presentation/dream-job-vision-and-journey-company-culture-you-want" class="presentation-title">Dream job? The vision and journey to the company culture you want</a><br/><a href="/speakers/helen-walton" style="font-style: normal;" class="presentation-speaker">Helen Walton</a>&nbsp;&amp; <br /> <a href="/speakers/pete-burden" style="font-style: normal;" class="presentation-speaker">Pete Burden</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2476">
+					   								<a href="/presentation/lessons-learned-adopting-clojure" class="presentation-title">Lessons Learned from Adopting Clojure</a><br/><a href="/speakers/jay-fields" style="font-style: normal;" class="presentation-speaker">Jay Fields</a>
+                                    
+																	<br/>
+		                            		                            		                                <img class="alt-as-qtip" src="sites/all/modules/qcon_schedule/images/no-slides.png" data-alt="No Slides will be published" />
+		                            								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2600">
+					   								<a href="/presentation/deploying-prem-saas-why-we-go-ansible" class="presentation-title">Deploying On-Prem as SaaS: Why we go with Ansible</a><br/><a href="/speakers/martin-etmajer" style="font-style: normal;" class="presentation-speaker">Martin Etmajer</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="">
+					   					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >3:20 PM</td>
+					<td colspan="7" class="event social_event nid-555">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >3:40 PM</td>
+											
+					<td class="presentation nid-2432">
+					   								<a href="/presentation/implementing-continuous-delivery-adjusting-your-architecture" class="presentation-title">Implementing Continuous Delivery: Adjusting your Architecture</a><br/><a href="/speakers/rachel-laycock" style="font-style: normal;" class="presentation-speaker">Rachel Laycock</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2531">
+					   								<a href="/presentation/beating-traffic-jam-using-embedded-devices-opc-ua-akka-and-nosql" class="presentation-title">Beating the traffic jam using embedded devices, OPC-UA, Akka and NoSQL</a><br/><a href="/speakers/kristoffer-dyrkorn" style="font-style: normal;" class="presentation-speaker">Kristoffer Dyrkorn</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2474">
+					   								<a href="/presentation/delivering-govuk-devops-nation" class="presentation-title">Delivering GOV.UK: DevOps for the nation</a><br/><a href="/speakers/anna-shipman" style="font-style: normal;" class="presentation-speaker">Anna Shipman</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2549">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Culture Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2497">
+					   								<a href="/presentation/faster-objects-and-arrays" class="presentation-title">Faster Objects and Arrays</a><br/><a href="/speakers/gil-tene" style="font-style: normal;" class="presentation-speaker">Gil Tene</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2602">
+					   								<a href="/presentation/design-patterns-large-scale-data-movement" class="presentation-title">Design Patterns for Large Scale Data Movement</a><br/><a href="/speakers/aaron-lee" style="font-style: normal;" class="presentation-speaker">Aaron Lee</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="">
+					   					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >4:30 PM</td>
+					<td colspan="7" class="event social_event nid-556">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >4:50 PM</td>
+											
+					<td class="presentation nid-2454">
+					   								<a href="/presentation/small-beautiful" class="presentation-title">Small Is Beautiful</a><br/><a href="/speakers/kevlin-henney" style="font-style: normal;" class="presentation-speaker">Kevlin Henney</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2514">
+					   								<a href="/presentation/evolving-data-system" class="presentation-title"> Evolving a data system</a><br/><a href="/speakers/simon-metson" style="font-style: normal;" class="presentation-speaker">Simon Metson</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2475">
+					   								<a href="/presentation/making-continuous-delivery-work-you-songkick-experience" class="presentation-title">Making Continuous Delivery Work for You: The Songkick Experience</a><br/><a href="/speakers/amy-phillips" style="font-style: normal;" class="presentation-speaker">Amy Phillips</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2540">
+					   								<a href="/presentation/engineering-culture-moocom" class="presentation-title">Cake Driven Development: Engineering at MOO.com</a><br/><a href="/speakers/mike-pearce" style="font-style: normal;" class="presentation-speaker">Mike  Pearce</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2551">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Java Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2601">
+					   								<a href="/presentation/tbd-2" class="presentation-title">Practical Steps to Secure your APIs for Mobile</a><br/><a href="/speakers/mark-o%E2%80%99neill" style="font-style: normal;" class="presentation-speaker">Mark  O’Neill</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="">
+					   					</td>
+									</tr>
+																							<tr class="event-row" >
+					<td class="time" >5:40 PM</td>
+					<td colspan="7" class="event social_event nid-783">
+													Exhibitor Reception - Benjamin Britten Lounge, 3rd floor and Mountbatten Lounge, 5th floor											</td>
+				</tr>
+																							<tr class="keynote-row" >
+					<td class="time" >6:30 PM</td>
+					<td colspan="7" class="intro keynote nid-2477">
+								                    							<a href="/keynote/software-development-tales-continent" class="keynote-title">Software development tales from the continent</a>							<br /> by							<a href="/speakers/enyo-kumahor" style="font-style: normal;" class="keynote-speaker">Enyo Kumahor</a> <span class="keynote-speaker-shorttitle">Managing Partner, The Cobalt Advisors</span>
+							
+							<br/>
+				            Fleming, 3rd flr.
+		                												</td>
+				</tr>
+																							<tr class="event-row" >
+					<td class="time" >7:20 PM</td>
+					<td colspan="7" class="event social_event nid-784">
+													QCon Conference Pizza & Social - Central Hall Westminster 											</td>
+				</tr>
+								 </tbody>
+	</table>
+  </div>
+
+  <div class="page-break"></div>
+
+
+		<div id="day-4" class="title-jump"></div>
+  <h3 class="center semistrong">
+    Thursday March 5, 2015 Tracks Day #2            <a href="/sites/default/files/pdf/track2.pdf" download="track-day-2.pdf">
+                <img class="hidden-xs schedule-ico-pdf-down" src="http://d3s75c3xtnyqxt.cloudfront.net/sites/all/themes/qconbs/images/ico-pdf-dwnl.v3.jpg">
+                <div class="visible-xs mobile-download-track">Download in PDF format</div>
+            </a>
+    </h3>
+<div class="table-responsive">
+	<table class="schedule-full">
+	 <colgroup>
+       <col span="1" class="wide odd-column" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   	 </colgroup>
+	 <tbody>
+																		<tr class="keynote-row" >
+					<td class="time" >8:30 AM</td>
+					<td colspan="7" class="intro keynote nid-2525">
+								                    <span class="keynote-intro">Conference Introduction and Keynote:</span><br/>							<a href="/keynote/cluster-management-google" class="keynote-title">Cluster management at Google</a>							<br /> by							<a href="/speakers/john-wilkes" style="font-style: normal;" class="keynote-speaker">John Wilkes</a> <span class="keynote-speaker-shorttitle">​Principal Software Engineer, Technical Infrastructure, Google</span>
+							
+							<br/>
+				            Fleming, 3rd flr.
+		                												</td>
+				</tr>
+																							<tr class="event-row" >
+					<td class="time" >9:50 AM</td>
+					<td colspan="7" class="event social_event nid-861">
+													Break											</td>
+				</tr>
+							
+				<tr class="track-th">
+					<td>Track</td>
+                    																 						<td  class="track track-nid-2416">
+									<a href="/track/docker-containers-and-application-portability" class="track-title">Docker, containers and application portability</a>									<br />
+									<a href="/speakers/alexis-richardson" style="font-style: normal;" class="track-host">Alexis Richardson</a>								</td>
+															                    																 						<td  class="track track-nid-2407">
+									<a href="/track/evolving-agile" class="track-title">Evolving agile</a>									<br />
+									<a href="/speakers/ben-linders" style="font-style: normal;" class="track-host">Ben  Linders</a>								</td>
+															                    																 						<td  class="track track-nid-2419">
+									<a href="/track/go-language" class="track-title">The Go Language</a>									<br />
+									<a href="/speakers/werner-schuster" style="font-style: normal;" class="track-host">Werner Schuster</a>								</td>
+															                    																 						<td  class="track track-nid-2414">
+									<a href="/track/internet-things" class="track-title">Internet of Things</a>									<br />
+									<a href="/speakers/yodit-stanton" style="font-style: normal;" class="track-host">Yodit Stanton</a>								</td>
+															                    																 						<td  class="track track-nid-2412">
+									<a href="/track/reactive-architecture" class="track-title">Reactive Architecture</a>									<br />
+									<a href="/speakers/martin-thompson" style="font-style: normal;" class="track-host">Martin Thompson</a>								</td>
+															                    																 						<td  class="track track-nid-2595">
+									<a href="/track/sponsored-solution-track-3" class="track-title">Sponsored Solution Track III</a>									<br />
+									<a href="/speakers/nitin-bharti" style="font-style: normal;" class="track-host">Nitin Bharti</a>								</td>
+															                    																 						<td  class="track track-nid-2596">
+									<a href="/track/sponsored-solution-track-4" class="track-title">Sponsored Solution Track IV</a>									<br />
+									<a href="/speakers/nitin-bharti" style="font-style: normal;" class="track-host">Nitin Bharti</a>								</td>
+															                    				</tr>
+				                <tr class="track-location-th">
+                    <td>Location</td>
+
+                                         <td>
+                        <span class="track-location">Churchill, G flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Mountbatten, 6th flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Whittle, 3rd flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Elizabeth Windsor, 5th flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Fleming, 3rd flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Abbey, 4th flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Rutherford, 4th flr.</span>
+                     </td>
+                                    </tr>
+														<tr class="presentations-row" >
+					<td class="time" >10:20 AM</td>
+											
+					<td class="presentation nid-2440">
+					   								<a href="/presentation/securing-platform-service-docker-and-weave" class="presentation-title">Securing &quot;Platform as a Service&quot; with Docker and Weave</a><br/><a href="/speakers/david-pollak" style="font-style: normal;" class="presentation-speaker">David  Pollak</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2436">
+					   								<a href="/presentation/back-future-what-ever-happened-being-extreme" class="presentation-title">Back to the Future: what ever happened to being eXtreme?</a><br/><a href="/speakers/rachel-davies" style="font-style: normal;" class="presentation-speaker">Rachel Davies</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2464">
+					   								<a href="/presentation/tbd-5" class="presentation-title">CloudFlare&#039;s fourth year of using Go</a><br/><a href="/speakers/john-graham-cumming" style="font-style: normal;" class="presentation-speaker">John Graham Cumming</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2451">
+					   								<a href="/presentation/your-thing-pwnd-security-challenges-internet-things" class="presentation-title">Your Thing is Pwnd: security challenges for the Internet of Things</a><br/><a href="/speakers/paul-fremantle" style="font-style: normal;" class="presentation-speaker">Paul Fremantle</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2559">
+					   								<a href="/presentation/building-halo-4-services-orleans" class="presentation-title">Building the Halo 4 Services with Orleans</a><br/><a href="/speakers/caitie-mccaffrey" style="font-style: normal;" class="presentation-speaker">Caitie  McCaffrey</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2603">
+					   								<a href="/presentation/workflows-open-source-way-bpmn-20-and-camunda-bpm" class="presentation-title">Workflows the Open Source way - with BPMN 2.0 and camunda BPM</a><br/><a href="/speakers/bernd-ruecker" style="font-style: normal;" class="presentation-speaker">Bernd  Ruecker</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2598">
+					   								<a href="/presentation/hmrc-digital-platform-club" class="presentation-title">HMRC Digital: Platform As A Club</a><br/><a href="/speakers/alun-coppack" style="font-style: normal;" class="presentation-speaker">Alun Coppack</a>&nbsp;&amp; <br /> <a href="/speakers/mike-potter" style="font-style: normal;" class="presentation-speaker">Mike Potter</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >11:10 AM</td>
+					<td colspan="7" class="event social_event nid-791">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >11:30 AM</td>
+											
+					<td class="presentation nid-2577">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Docker Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2534">
+					   								<a href="/presentation/minimum-viable-contract" class="presentation-title">The Minimum Viable Contract</a><br/><a href="/speakers/gabrielle-benefield" style="font-style: normal;" class="presentation-speaker">Gabrielle  Benefield</a>&nbsp;&amp; <br /> <a href="/speakers/susan-atkinson" style="font-style: normal;" class="presentation-speaker">Susan Atkinson</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2465">
+					   								<a href="/presentation/infrastructure-built-go" class="presentation-title">Infrastructure built in Go</a><br/><a href="/speakers/jessie-frazelle" style="font-style: normal;" class="presentation-speaker">Jessie Frazelle</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2460">
+					   								<a href="/presentation/when-arduino-meets-application-server-love-second-sight" class="presentation-title">When arduino meets application server: love at second sight</a><br/><a href="/speakers/holly-cummins" style="font-style: normal;" class="presentation-speaker">Holly Cummins</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2557">
+					   								<a href="/presentation/art-protocol-design" class="presentation-title">The Art of Protocol Design</a><br/><a href="/speakers/pieter-hintjens" style="font-style: normal;" class="presentation-speaker">Pieter  Hintjens</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2612">
+					   								<a href="/presentation/high-performance-continuous-delivery-versioning-and-release-management-aligned" class="presentation-title">High Performance Continuous Delivery - Versioning and Release Management Aligned</a><br/><a href="/speakers/sven-erik-knop" style="font-style: normal;" class="presentation-speaker">Sven Erik  Knop </a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2610">
+					   								<a href="/presentation/what-finance-can-learn-dating-sites" class="presentation-title">What finance can learn from Dating sites</a><br/><a href="/speakers/mark-needham" style="font-style: normal;" class="presentation-speaker">Mark Needham</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row lunch" >
+					<td class="time" >12:20 PM</td>
+					<td colspan="7" class="event social_event nid-794">
+													Lunch 											</td>
+				</tr>
+							
+				<tr class="track-th">
+					<td>Track</td>
+                    																						<td class="track continuation track-nid-2416" > (Track cont.) </td>
+														                    																						<td class="track continuation track-nid-2407" > (Track cont.) </td>
+														                    																 						<td  class="track track-nid-2420">
+									<a href="/track/html-and-js-today" class="track-title">HTML and JS Today</a>									<br />
+									<a href="/speakers/horia-dragomir" style="font-style: normal;" class="track-host">Horia Dragomir</a>								</td>
+															                    																 						<td  class="track track-nid-2415">
+									<a href="/track/modern-cs-real-world" class="track-title">Modern CS in the Real World</a>									<br />
+									<a href="/speakers/werner-schuster" style="font-style: normal;" class="track-host">Werner Schuster</a>								</td>
+															                    																						<td class="track continuation track-nid-2412" > (Track cont.) </td>
+														                    																						<td class="track continuation track-nid-2595" > (Track cont.) </td>
+														                    																						<td class="track continuation track-nid-2596" > (Track cont.) </td>
+														                    				</tr>
+														<tr class="presentations-row" >
+					<td class="time" >1:20 PM</td>
+											
+					<td class="presentation nid-2526">
+					   								<a href="/presentation/docker-vs-paas" class="presentation-title">Docker vs PaaS; May the Best Container Win </a><br/><a href="/speakers/colin-humphreys" style="font-style: normal;" class="presentation-speaker">Colin Humphreys</a>&nbsp;&amp; <br /> <a href="/speakers/paula-kennedy" style="font-style: normal;" class="presentation-speaker">Paula Kennedy</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2511">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Agile Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2452">
+					   								<a href="/presentation/business-front-end-development" class="presentation-title">The business of front-end development</a><br/><a href="/speakers/rachel-andrew" style="font-style: normal;" class="presentation-speaker">Rachel Andrew</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2463">
+					   								<a href="/presentation/building-functional-infrastructure-mirage-os" class="presentation-title">Building Functional Infrastructure with Mirage OS</a><br/><a href="/speakers/anil-madhavapeddy" style="font-style: normal;" class="presentation-speaker">Anil  Madhavapeddy</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2560">
+					   								<a href="/presentation/not-only-big-data" class="presentation-title">Not Only Big Data</a><br/><a href="/speakers/andrew-stewart" style="font-style: normal;" class="presentation-speaker">Andrew Stewart</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2611">
+					   								<a href="/presentation/live-coding-mongodb-and-internet-things-iot-real-time" class="presentation-title">Live coding: MongoDB and the Internet of Things (IoT) in real-time</a><br/><a href="/speakers/john-page" style="font-style: normal;" class="presentation-speaker">John Page</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2613">
+					   								<a href="/presentation/low-latency-java-real-world" class="presentation-title">Low latency Java in the real world - LMAX Exchange and the Zing JVM</a><br/><a href="/speakers/mark-price" style="font-style: normal;" class="presentation-speaker">Mark  Price</a>&nbsp;&amp; <br /> <a href="/speakers/gil-tene" style="font-style: normal;" class="presentation-speaker">Gil Tene</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >2:10 PM</td>
+					<td colspan="7" class="event social_event nid-792">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >2:30 PM</td>
+											
+					<td class="presentation nid-2444">
+					   								<a href="/presentation/docker-clustering-batteries-included" class="presentation-title">Docker clustering - batteries included</a><br/><a href="/speakers/jessie-frazelle" style="font-style: normal;" class="presentation-speaker">Jessie Frazelle</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2437">
+					   								<a href="/presentation/progress-what-and-so-what-now-what" class="presentation-title">Progress from &quot;What?&quot; and &quot;So what?&quot; to &quot;NOW WHAT?&quot;</a><br/><a href="/speakers/larry-maccherone" style="font-style: normal;" class="presentation-speaker">Larry Maccherone</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2553">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">HTML and JS Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2523">
+					   								<a href="/presentation/modelling-complex-game-economy-graph-database" class="presentation-title">Modelling complex game economy with a graph database</a><br/><a href="/speakers/yan-cui" style="font-style: normal;" class="presentation-speaker">Yan Cui</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2558">
+					   								<a href="/presentation/ldap-lightning-speed" class="presentation-title">LDAP At Lightning Speed</a><br/><a href="/speakers/howard-chu" style="font-style: normal;" class="presentation-speaker">Howard Chu</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2605">
+					   								<a href="/presentation/distribution-service-your-download-server-box" class="presentation-title">Distribution as a Service - Your Download Server in a Box</a><br/><a href="/speakers/baruch-sadogursky" style="font-style: normal;" class="presentation-speaker">Baruch Sadogursky </a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2609">
+					   								<a href="/presentation/ingesting-hdfs-data-solr-using-spark" class="presentation-title">Ingesting HDFS data into Solr using Spark</a><br/><a href="/speakers/wolfgang-hoschek" style="font-style: normal;" class="presentation-speaker">Wolfgang Hoschek</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >3:20 PM</td>
+					<td colspan="7" class="event social_event nid-793">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >3:40 PM</td>
+											
+					<td class="presentation nid-2435">
+					   								<a href="/presentation/docker-fig-flocker" class="presentation-title">Docker, Fig &amp; Flocker</a><br/><a href="/speakers/luke-marsden" style="font-style: normal;" class="presentation-speaker">Luke Marsden</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2455">
+					   								<a href="/presentation/why-bdd-can-save-agile" class="presentation-title">Why BDD can save agile</a><br/><a href="/speakers/matt-wynne" style="font-style: normal;" class="presentation-speaker">Matt Wynne</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2552">
+					   								<a href="/presentation/asynchronous-patterns-client-server-and-iot" class="presentation-title">Asynchronous patterns for client, server, and IoT</a><br/><a href="/speakers/andrea-giammarchi" style="font-style: normal;" class="presentation-speaker">Andrea Giammarchi</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2554">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">CS Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2561">
+					   								<a href="/presentation/responding-rapidly-when-you-have-100gb-data-sets-java" class="presentation-title">Responding rapidly when you have 100GB+ data sets in Java</a><br/><a href="/speakers/peter-lawrey" style="font-style: normal;" class="presentation-speaker">Peter Lawrey</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2607">
+					   								<a href="/presentation/when-bet365-met-riak-and-discovered-true-always-database" class="presentation-title">When bet365 met Riak and discovered a true, &quot;always on&quot; database</a><br/><a href="/speakers/dan-macklin" style="font-style: normal;" class="presentation-speaker">Dan Macklin</a>&nbsp;&amp; <br /> <a href="/speakers/emmanuel-marchal" style="font-style: normal;" class="presentation-speaker">Emmanuel Marchal</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2638">
+					   								<a href="/presentation/jcachejsr107-standard-java-caching-its-finally-here" class="presentation-title">JCache(JSR107) The standard for Java Caching, It&#039;s finally here!</a><br/><a href="/speakers/david-brimley" style="font-style: normal;" class="presentation-speaker">David Brimley</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >4:30 PM</td>
+					<td colspan="7" class="event social_event nid-795">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >4:50 PM</td>
+											
+					<td class="presentation nid-2541">
+					   								<a href="/presentation/clocker-creating-docker-cloud" class="presentation-title">How to Train your Docker Cloud</a><br/><a href="/speakers/andrew-kennedy" style="font-style: normal;" class="presentation-speaker">Andrew Kennedy</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2510">
+					   								<a href="/presentation/taking-back-agile" class="presentation-title">Taking back agile</a><br/><a href="/speakers/ruud-wijnands" style="font-style: normal;" class="presentation-speaker">Ruud Wijnands</a>&nbsp;&amp; <br /> <a href="/speakers/tim-ottinger" style="font-style: normal;" class="presentation-speaker">Tim Ottinger</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2466">
+					   								<a href="/presentation/front-end-tools-and-workflows" class="presentation-title">Front-End Tools and Workflows</a><br/><a href="/speakers/sara-vieira" style="font-style: normal;" class="presentation-speaker">Sara Vieira</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2556">
+					   								<a href="/presentation/protocols-glue-applications" class="presentation-title">Protocols - The Glue for Applications</a><br/><a href="/speakers/torben-hoffmann" style="font-style: normal;" class="presentation-speaker">Torben Hoffmann </a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2562">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Reactive Architecture Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="">
+					   					</td>
+											
+					<td class="presentation nid-2629">
+					   								<a href="/presentation/microservices-micro-deployments-and-devops" class="presentation-title">Microservices, Micro Deployments and DevOps</a><br/><a href="/speakers/alois-reitbauer" style="font-style: normal;" class="presentation-speaker">Alois Reitbauer</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row" >
+					<td class="time" >5:40 PM</td>
+					<td colspan="7" class="event social_event nid-796">
+													IBM Hospitality Reception - Pickwick Suite, 1st floor											</td>
+				</tr>
+								 </tbody>
+	</table>
+  </div>
+
+  <div class="page-break"></div>
+
+
+		<div id="day-5" class="title-jump"></div>
+  <h3 class="center semistrong">
+    Friday March 6, 2015 Tracks Day #3            <a href="/sites/default/files/pdf/track3.pdf" download="track-day-3.pdf">
+                <img class="hidden-xs schedule-ico-pdf-down" src="http://d3s75c3xtnyqxt.cloudfront.net/sites/all/themes/qconbs/images/ico-pdf-dwnl.v3.jpg">
+                <div class="visible-xs mobile-download-track">Download in PDF format</div>
+            </a>
+    </h3>
+<div class="table-responsive">
+	<table class="schedule-full">
+	 <colgroup>
+       <col span="1" class="wide odd-column" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   		 	<col class="" />
+	   	 </colgroup>
+	 <tbody>
+																		<tr class="keynote-row" >
+					<td class="time" >8:30 AM</td>
+					<td colspan="5" class="intro keynote nid-2506">
+								                    <span class="keynote-intro">Conference Introduction and Keynote:</span><br/>							<a href="/keynote/netflix-built-its-own-own-monitoring-system-and-why-you-probably-shouldnt" class="keynote-title">Netflix built its own monitoring system - and why you probably shouldn&#039;t</a>							<br /> by							<a href="/speakers/roy-rapoport" style="font-style: normal;" class="keynote-speaker">Roy  Rapoport</a> <span class="keynote-speaker-shorttitle">Manager, Insight Engineering at Netflix</span>
+							
+							<br/>
+				            Fleming, 3rd flr.
+		                												</td>
+				</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >9:50 AM</td>
+					<td colspan="5" class="event social_event nid-862">
+													Break											</td>
+				</tr>
+							
+				<tr class="track-th">
+					<td>Track</td>
+                    																 						<td  class="track track-nid-2425">
+									<a href="/track/architectures-youve-always-wondered-about-0" class="track-title">Architectures You&#039;ve Always Wondered About</a>									<br />
+									<a href="/speakers/randy-shoup" style="font-style: normal;" class="track-host">Randy Shoup</a>								</td>
+															                    																 						<td  class="track track-nid-2423">
+									<a href="/track/open-source-finance" class="track-title">Open source in finance</a>									<br />
+									<a href="/speakers/john-davies" style="font-style: normal;" class="track-host">John Davies</a>								</td>
+															                    																 						<td  class="track track-nid-2410">
+									<a href="/track/product-mastery" class="track-title">Product Mastery</a>									<br />
+									<a href="/speakers/aino-corry" style="font-style: normal;" class="track-host">Aino Corry</a>								</td>
+															                    																 						<td  class="track track-nid-2413">
+									<a href="/track/taming-microservices" class="track-title">Taming Microservices</a>									<br />
+									<a href="/speakers/james-lewis" style="font-style: normal;" class="track-host">James Lewis</a>								</td>
+															                    																 						<td  class="track track-nid-2422">
+									<a href="/track/taming-mobile" class="track-title">Taming Mobile </a>									<br />
+									<a href="/speakers/israel-boza-rodriguez" style="font-style: normal;" class="track-host"> Israel  Boza Rodriguez</a>								</td>
+															                    				</tr>
+				                <tr class="track-location-th">
+                    <td>Location</td>
+
+                                         <td>
+                        <span class="track-location">Fleming, 3rd flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Whittle, 3rd flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Elizabeth Windsor, 5th flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Churchill, G flr.</span>
+                     </td>
+                                         <td>
+                        <span class="track-location">Mountbatten, 6th flr.</span>
+                     </td>
+                                    </tr>
+														<tr class="presentations-row" >
+					<td class="time" >10:20 AM</td>
+											
+					<td class="presentation nid-2542">
+					   								<a href="/presentation/scaling-ubers-realtime-market-platform" class="presentation-title">Scaling Uber&#039;s Realtime Market Platform</a><br/><a href="/speakers/matt-ranney" style="font-style: normal;" class="presentation-speaker">Matt Ranney</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2449">
+					   								<a href="/presentation/electronic-trading-2015-faster-or-smarter" class="presentation-title">Electronic trading in 2015: faster or smarter?</a><br/><a href="/speakers/annalisa-sarasini" style="font-style: normal;" class="presentation-speaker">Annalisa Sarasini</a>
+                                    
+																	<br/>
+		                            		                                <img class="alt-as-qtip" src="sites/all/modules/qcon_schedule/images/no-video.png"  data-alt="No Video will be published" />
+		                            		                            								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2571">
+					   								<a href="/presentation/sensemaker-method" class="presentation-title">The SenseMaker® method</a><br/><a href="/speakers/tony-quinlan" style="font-style: normal;" class="presentation-speaker">Tony Quinlan</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2467">
+					   								<a href="/presentation/microservices-software-fits-your-head" class="presentation-title">Microservices: software that fits in your head</a><br/><a href="/speakers/dan-north" style="font-style: normal;" class="presentation-speaker">Dan North</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2538">
+					   								<a href="/presentation/taking-pain-out-real-time-mobile-backend-development" class="presentation-title">Taking the pain out of real-time mobile backend development</a><br/><a href="/speakers/mandy-waite" style="font-style: normal;" class="presentation-speaker">Mandy Waite</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >11:10 AM</td>
+					<td colspan="5" class="event social_event nid-797">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >11:30 AM</td>
+											
+					<td class="presentation nid-2563">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Architectures Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2462">
+					   								<a href="/presentation/reactive-application-design-high-volume-multi-dimensional-temporal-data-series" class="presentation-title">Reactive application design for high volume multi-dimensional temporal data series</a><br/><a href="/speakers/stuart-williams" style="font-style: normal;" class="presentation-speaker">Stuart Williams</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2459">
+					   								<a href="/presentation/bad-idea-terminator" class="presentation-title">The Bad Idea Terminator</a><br/><a href="/speakers/melissa-perri" style="font-style: normal;" class="presentation-speaker">Melissa Perri</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2468">
+					   								<a href="/presentation/microservices-are-too-conceptually-big" class="presentation-title">Microservices are too (conceptually) big</a><br/><a href="/speakers/philip-wills" style="font-style: normal;" class="presentation-speaker">Philip Wills</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2539">
+					   								<a href="/presentation/how-build-rock-solid-apps-and-keep-100m-users-happy" class="presentation-title">How we build rock-solid apps and keep 100M+ users happy at Shazam</a><br/><a href="/speakers/iordanis-giannakakis" style="font-style: normal;" class="presentation-speaker">Iordanis Giannakakis</a>&nbsp;&amp; <br /> <a href="/speakers/savvas-dalkitsis" style="font-style: normal;" class="presentation-speaker">Savvas  Dalkitsis</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row lunch" >
+					<td class="time" >12:20 PM</td>
+					<td colspan="5" class="event social_event nid-799">
+													Lunch 											</td>
+				</tr>
+																							<tr class="event-row" >
+					<td class="time" >12:50 PM</td>
+					<td colspan="5" class="event social_event nid-2635">
+													Exhibitor Prize Give Away, Fleming 3rd floor											</td>
+				</tr>
+							
+				<tr class="track-th">
+					<td>Track</td>
+                    																						<td class="track continuation track-nid-2425" > (Track cont.) </td>
+														                    																 						<td  class="track track-nid-2424">
+									<a href="/track/low-latency-trading" class="track-title">Low latency trading</a>									<br />
+									<a href="/speakers/john-davies" style="font-style: normal;" class="track-host">John Davies</a>								</td>
+															                    																						<td class="track continuation track-nid-2410" > (Track cont.) </td>
+														                    																						<td class="track continuation track-nid-2413" > (Track cont.) </td>
+														                    																						<td class="track continuation track-nid-2422" > (Track cont.) </td>
+														                    				</tr>
+														<tr class="presentations-row" >
+					<td class="time" >1:20 PM</td>
+											
+					<td class="presentation nid-2564">
+					   								<a href="/presentation/rebuilding-atlas-advertising-scale-facebook" class="presentation-title">Rebuilding Atlas -- Advertising at Scale at Facebook</a><br/><a href="/speakers/jason-mchugh" style="font-style: normal;" class="presentation-speaker">Jason  McHugh</a>
+                                    
+																	<br/>
+		                            		                                <img class="alt-as-qtip" src="sites/all/modules/qcon_schedule/images/no-video.png"  data-alt="No Video will be published" />
+		                            		                            								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2569">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Low latency Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2443">
+					   								<a href="/presentation/product-thru-looking-glass" class="presentation-title">Product thru the Looking Glass</a><br/><a href="/speakers/chris-matts" style="font-style: normal;" class="presentation-speaker">Chris Matts</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2573">
+					   								<a href="/presentation/protocols-interaction-best-current-practices" class="presentation-title">Protocols of Interaction: Best Current Practices</a><br/><a href="/speakers/todd-montgomery" style="font-style: normal;" class="presentation-speaker">Todd  Montgomery</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2547">
+					   								<a href="/presentation/introduction-swift" class="presentation-title">Swift - Under the hood</a><br/><a href="/speakers/alex-blewitt" style="font-style: normal;" class="presentation-speaker">Alex Blewitt</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >2:10 PM</td>
+					<td colspan="5" class="event social_event nid-800">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >2:30 PM</td>
+											
+					<td class="presentation nid-2565">
+					   								<a href="/presentation/service-architectures-scale-lessons-google-and-ebay" class="presentation-title">Service Architectures at Scale:  Lessons from Google and eBay</a><br/><a href="/speakers/randy-shoup" style="font-style: normal;" class="presentation-speaker">Randy Shoup</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2533">
+					   								<a href="/presentation/priming-java-speed-market-open" class="presentation-title">Priming Java for Speed at Market Open</a><br/><a href="/speakers/gil-tene" style="font-style: normal;" class="presentation-speaker">Gil Tene</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2572">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Product Mastery Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2469">
+					   								<a href="/presentation/no-free-lunch-indeed-three-years-micro-services-soundcloud" class="presentation-title">No Free Lunch, Indeed: Three Years of Micro-services at SoundCloud</a><br/><a href="/speakers/phil-calcado" style="font-style: normal;" class="presentation-speaker">Phil Calcado</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2574">
+					   								<a href="/presentation/tales-making-mobile-games" class="presentation-title">Tales from making mobile games</a><br/><a href="/speakers/jesper-richter-reichhelm" style="font-style: normal;" class="presentation-speaker">Jesper Richter-Reichhelm</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >3:20 PM</td>
+					<td colspan="5" class="event social_event nid-801">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >3:40 PM</td>
+											
+					<td class="presentation nid-2567">
+					   								<a href="/presentation/building-modern-microservices-architecture-gilt-essentials" class="presentation-title">Building a Modern Microservices Architecture at Gilt: The Essentials</a><br/><a href="/speakers/yoni-goldberg" style="font-style: normal;" class="presentation-speaker">Yoni Goldberg</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2537">
+					   								<a href="/presentation/java-low-latency-you%E2%80%99ve-got-be-joking" class="presentation-title">Java for low latency - you’ve got to be joking!</a><br/><a href="/speakers/john-davies" style="font-style: normal;" class="presentation-speaker">John Davies</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2570">
+					   								<a href="/presentation/size-matters-product-management-littleco-bigdeal" class="presentation-title">Size Matters! Product Management from LittleCo to BigDeal</a><br/><a href="/speakers/lisa-long" style="font-style: normal;" class="presentation-speaker">Lisa Long</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2579">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Microservices Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2581">
+					   								<a href="/presentation/java-ios-yes-you-can" class="presentation-title">Java on iOS? Yes you can!</a><br/><a href="/speakers/niklas-therning" style="font-style: normal;" class="presentation-speaker">Niklas Therning</a>
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row coffe_break" >
+					<td class="time" >4:30 PM</td>
+					<td colspan="5" class="event social_event nid-802">
+													Break											</td>
+				</tr>
+															<tr class="presentations-row" >
+					<td class="time" >4:50 PM</td>
+											
+					<td class="presentation nid-2568">
+					   								<a href="/presentation/spotify-audio-delivery-scale" class="presentation-title">Spotify Audio Delivery at Scale</a><br/><a href="/speakers/niklas-gustavsson" style="font-style: normal;" class="presentation-speaker">Niklas Gustavsson</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2543">
+					   								<a href="/presentation/aeron-next-generation-high-performance-messaging" class="presentation-title">Aeron: The next generation in high-performance messaging</a><br/><a href="/speakers/martin-thompson" style="font-style: normal;" class="presentation-speaker">Martin Thompson</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2458">
+					   								<a href="/presentation/product-ownership-team-sport" class="presentation-title">Product ownership is a team sport</a><br/><a href="/speakers/shane-hastie" style="font-style: normal;" class="presentation-speaker">Shane Hastie</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2582">
+					   								<a href="/presentation/operating-microservices" class="presentation-title">Operating microservices</a><br/><a href="/speakers/michael-brunton-spall" style="font-style: normal;" class="presentation-speaker">Michael  Brunton-Spall</a>
+                                    
+								
+								
+			            							    					</td>
+											
+					<td class="presentation nid-2580">
+					   																	<span class="open-space-event icon-lightbulb" >  &#x1F4A1;  </span> <br/><br/>
+									<a href="/openspace" class="presentation-title">Mobile Open Space</a> <br /> <br />
+									Facilitated Peer Sharing								
+                                    
+								
+								
+			            							    					</td>
+									</tr>
+																							<tr class="event-row" >
+					<td class="time" >5:40 PM</td>
+					<td colspan="5" class="event social_event nid-803">
+													"Meet the Speakers" Reception - Pickwick Suite, 1st floor											</td>
+				</tr>
+								 </tbody>
+	</table>
+  </div>
+
+  <div class="page-break"></div>
+
+
+	<div class="qcon-schedule-message-footer"><span>Schedule subject to change.</span></div>  </div>
+
+  
+  </div>
+        </div>
+    </div> <!-- /.main -->
+    <div class="qcon-base-footer">
+        <div class="qcon-footer-col">
+          <div class="panel-pane pane-panels-mini pane-footer-minipanel" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panel-display qconfooter clearfix " id="mini-panel-footer_minipanel">
+  <section class="section">
+    <div class="pre-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 qcon-pre-footer-col">
+                  <div class="panel-pane pane-custom pane-2 qcon-follow-footer" >
+  
+        <h4 class="pane-title">Follow QCon</h4>
+    
+  
+  <div class="pane-content">
+    <ul class="social">
+<li><a class="twitter icon replace" href="https://twitter.com/QConLondon" target="_blank">Twitter</a></li>
+<li><a class="facebook icon replace" href="https://www.facebook.com/QCon" target="_blank">Facebook</a></li>
+<li><a class="googleplus icon replace" href="https://plus.google.com/+Qconferences1" target="_blank">Google Plus</a></li>
+<!--li><p><a class="youtube icon replace" href="https://www.youtube.com/channel/UCLI_iq5wEySHTOb7xk2F7Ww" target="_blank">YouTube</a></li>
+<li><a class="flickr icon replace" href="http://www.flickr.com/photos/qconpictures/collections/" target="_blank">Flickr</a></li--></ul>
+  </div>
+
+  
+  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 qcon-pre-footer-col">
+                  <div class="panel-pane pane-menu-tree pane-menu-qcon-menu-contact-footer qcon-menu-contact-footer" >
+  
+        <h4 class="pane-title">Contact</h4>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-menu-qcon-menu-contact-footer-1 menu-name-menu-qcon-menu-contact-footer parent-mlid-0 menu-level-1">
+  <ul class="menu clearfix" role="menu"><li class="first leaf menu-mlid-2106" role="presentation"><a href="mailto:general@qconlondon.com" title="" target="_blank" role="menuitem">general@qconlondon.com</a></li>
+<li class="leaf menu-mlid-2107" role="presentation"><a href="mailto:speaking@qconlondon.com" title="" target="_blank" role="menuitem">speaking@qconlondon.com</a></li>
+<li class="last leaf menu-mlid-2105" role="presentation"><a href="mailto:sponsors@qconlondon.com" title="" target="_blank" role="menuitem">sponsors@qconlondon.com</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 qcon-pre-footer-col">
+                  <div class="panel-pane pane-menu-tree pane-menu-qcon-menu-footer qcon-menu-footer" >
+  
+        <h4 class="pane-title">Menu</h4>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-menu-qcon-menu-footer-1 menu-name-menu-qcon-menu-footer parent-mlid-0 menu-level-1">
+  <ul class="menu clearfix" role="menu"><li class="first leaf menu-mlid-2109" role="presentation"><a href="/" role="menuitem">Home</a></li>
+<li class="leaf active-trail active menu-mlid-3045" role="presentation"><a href="/schedule" title="" class="active-trail active" role="menuitem">Schedule</a></li>
+<li class="leaf menu-mlid-3042" role="presentation"><a href="/tracks" role="menuitem">Tracks</a></li>
+<li class="leaf menu-mlid-3035" role="presentation"><a href="/speakers" role="menuitem">Speakers</a></li>
+<li class="leaf menu-mlid-3044" role="presentation"><a href="/tutorials" role="menuitem">Tutorials</a></li>
+<li class="leaf menu-mlid-3041" role="presentation"><a href="/open-space" role="menuitem">Open Space</a></li>
+<li class="leaf menu-mlid-3043" role="presentation"><a href="/social-events" role="menuitem">Social Events</a></li>
+<li class="leaf menu-mlid-2853" role="presentation"><a href="/hotel" role="menuitem">Hotel</a></li>
+<li class="leaf menu-mlid-2854" role="presentation"><a href="/volunteers" role="menuitem">Volunteer</a></li>
+<li class="leaf menu-mlid-2945" role="presentation"><a href="/sponsors" role="menuitem">Sponsors</a></li>
+<li class="leaf menu-mlid-2848" role="presentation"><a href="/code-conduct" role="menuitem">Code of Conduct</a></li>
+<li class="last leaf menu-mlid-2855" role="presentation"><a href="http://qconferences.com" target="_blank" title="" role="menuitem">About</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 qcon-pre-footer-col">
+                  <div class="panel-pane pane-custom pane-3 qcon-around-footer" >
+  
+        <h4 class="pane-title">QCons around the World</h4>
+    
+  
+  <div class="pane-content">
+    <ul>
+<li><a href="http://qconlondon.com/" target="_blank"> <span class="sprite london"></span>London / <span class="caps small">2 - 6 March 2015</span> </a></li>
+<li><a href="http://www.qconsp.com/" target="_blank"> <span class="sprite sao-paulo"></span>São Paulo / <span class="caps small">23 - 27 March 2015</span> </a></li>
+<li><a href="http://qcontokyo.com/" target="_blank"> <span class="sprite tokyo"></span>Tokyo / <span class="caps small">21 April 2015</span> </a></li>
+<li><a href="http://www.qconbeijing.com/" target="_blank"> <span class="sprite beijing"></span>Beijing / <span class="caps small">23-25 April 2015</span> </a></li>
+<li><a href="https://qconnewyork.com/" target="_blank"> <span class="sprite nyc"></span>New York / <span class="caps small">8 - 12 June 2015</span> </a></li>
+<li><a href="http://www.qconrio.com/" target="_blank"> <span class="sprite rio"></span>Rio de Janeiro / <span class="caps small">21 - 25 September 2015</span> </a></li>
+<li><a href="http://www.qconshanghai.com/" target="_blank"> <span class="sprite shanghai"></span>Shanghai / <span class="caps small">15 - 17 October 2015</span> </a></li>
+<li><a href="http://qconsf.com/" target="_blank"> <span class="sprite san-francisco"></span>San Francisco / <span class="caps small">16 - 20 November 2015</span> </a></li>
+</ul>
+  </div>
+
+  
+  </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- /.container -->
+    <div class="footer container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 qconfooter">
+          <div class="panel-pane pane-custom pane-1 qcon-logo-footer" >
+  
+      
+  
+  <div class="pane-content">
+    <p><a href="/"><img class="logo-footer" src="/sites/all/themes/qconbs/images/logo_footer.jpg" alt="Qcon" border="0" height="108" width="208" /></a></p>
+  </div>
+
+  
+  </div>
+        </div>
+      </div>
+    </div> <!-- /.container -->
+</section>
+</div><!-- /.qconfooter -->
+  </div>
+
+  
+  </div>
+        </div>
+    </div> <!-- /.footer -->
+</section>
+</div><!-- /.qconbase -->
+  </div>
+        </div>
+      </div> <!-- /.section, /#content -->
+
+    </main><!-- /#main -->
+  </div> <!-- /#main-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  <script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_YW4M61Zd2TfUR4lWA4l5yNa6ecXtgEXUI-LMqC2cHfM.js"></script>
+</body>
+</html>

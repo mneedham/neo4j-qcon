@@ -1,0 +1,115 @@
+time,title,titleHref,speaker,speakerHref,type
+8:30 AM,To the Moon,/keynote/moon,Russ Olsen,/speakers/russ-olsen,keynote
+6:30 PM,Software development tales from the continent,/keynote/software-development-tales-continent,Enyo Kumahor,/speakers/enyo-kumahor,keynote
+10:20 AM,Evolutionary Architecture and Micro-Services - A Match Enabled by Continuous Delivery,/presentation/evolutionary-architecture-and-micro-services-match-enabled-continuous-delivery,Rebecca Parsons,/speakers/rebecca-parsons,presentation
+10:20 AM,How SoundCloud uses Cassandra,/presentation/using-cassandra-scale-soundcloud,Emily Green,/speakers/emily-green,presentation
+10:20 AM,DevOps and the Need for Speed,/presentation/devops-and-need-speed,Stephen Thair,/speakers/stephen-thair,presentation
+10:20 AM,Neuro-diversity and agile,/presentation/neuro-diversity-and-agile-what-leading-experts-autism-creativity-and-psychology,Sallyann Freudenberg,/speakers/sallyann-freudenberg,presentation
+10:20 AM,Java 8 in Anger,/presentation/java-8-anger,Trisha Gee,/speakers/trisha-gee,presentation
+10:20 AM,APIs that Change Lifestyles,/presentation/apis-change-lifestyles,Senaka Fernando,/speakers/senaka-fernando,presentation
+10:20 AM,Elasticsearch powers the Citizen Advice Bureau (CAB) to monitor trends in society before they become issues,/presentation/tbd-13,Peter Passaro,/speakers/peter-passaro,presentation
+11:30 AM,Architecture Open Space,/openspace,Facilitated Peer Sharing,,presentation
+11:30 AM,Don’t let Data Gravity crush your infrastructure,/presentation/don%E2%80%99t-let-data-gravity-crush-your-infrastructure,Dave McCrory,/speakers/dave-mccrory,presentation
+11:30 AM,The Rationale for Continuous Delivery (The culture and practice of good software development),/presentation/rationale-continuous-delivery-culture-and-practice-good-software-development,Dave Farley,/speakers/dave-farley,presentation
+11:30 AM,Wired to Connect  - Creating great relationships is human nature,/presentation/wired-connect-creating-great-relationships-human-nature,Jenni Jepsen,/speakers/jenni-jepsen,presentation
+11:30 AM,Scala in the enterprise,/presentation/scala-enterprise,Peter Pilgrim,/speakers/peter-pilgrim,presentation
+11:30 AM,Wrangling data at the IOT rodeo,/presentation/wrangling-data-iot-rodeo,Damien Dallimore,/speakers/damien-dallimore,presentation
+11:30 AM,Microservices Made Easy with Spring Cloud and Netflix OSS,/presentation/microservices-made-easy-spring-cloud-and-netflix-oss,Dave Syer,/speakers/dave-syer,presentation
+1:20 PM,Treat your Code as a Crime Scene,/presentation/treat-your-code-crime-scene,Adam Tornhill,/speakers/adam-tornhill,presentation
+1:20 PM,Big Data Open Space,/openspace,Facilitated Peer Sharing,,presentation
+1:20 PM,"Continuous Delivery: Tools, Collaboration, and Conway's Law",/presentation/tools-collaboration-and-conways-law-how-choose-and-use-tools-effectively-continuous,Matthew Skelton,/speakers/matthew-skelton,presentation
+1:20 PM,The Power of Hope: Getting You from Here to There,/presentation/power-hope-getting-you-here-there,Portia Tung,/speakers/portia-tung,presentation
+1:20 PM,Refactoring to Functional,/presentation/refactoring-functional,Hadi Hariri,/speakers/hadi-hariri,presentation
+1:20 PM,From IoT idea to operation in 30 minutes using services and a PaaS,/presentation/iot-idea-operation-30-minutes-using-services-and-paas,Mark Vanderwiele,/speakers/mark-vanderwiele,presentation
+1:20 PM,Principles of High Load,/presentation/principles-high-load,Peter Milne,/speakers/peter-milne,presentation
+2:30 PM,An Architect’s World View,/presentation/architect%E2%80%99s-mindset,Colin Garlick,/speakers/colin-garlick,presentation
+2:30 PM,A Taste of Random Decision Forests on Apache Spark,/presentation/taste-random-decision-forests-apache-spark,Sean Owen,/speakers/sean-owen,presentation
+2:30 PM,DevOps and Continuous Delivery Open Space,/openspace,Facilitated Peer Sharing,,presentation
+2:30 PM,Dream job? The vision and journey to the company culture you want,/presentation/dream-job-vision-and-journey-company-culture-you-want,Helen Walton,/speakers/helen-walton,presentation
+2:30 PM,Lessons Learned from Adopting Clojure,/presentation/lessons-learned-adopting-clojure,Jay Fields,/speakers/jay-fields,presentation
+2:30 PM,Deploying On-Prem as SaaS: Why we go with Ansible,/presentation/deploying-prem-saas-why-we-go-ansible,Martin Etmajer,/speakers/martin-etmajer,presentation
+3:40 PM,Implementing Continuous Delivery: Adjusting your Architecture,/presentation/implementing-continuous-delivery-adjusting-your-architecture,Rachel Laycock,/speakers/rachel-laycock,presentation
+3:40 PM,"Beating the traffic jam using embedded devices, OPC-UA, Akka and NoSQL",/presentation/beating-traffic-jam-using-embedded-devices-opc-ua-akka-and-nosql,Kristoffer Dyrkorn,/speakers/kristoffer-dyrkorn,presentation
+3:40 PM,Delivering GOV.UK: DevOps for the nation,/presentation/delivering-govuk-devops-nation,Anna Shipman,/speakers/anna-shipman,presentation
+3:40 PM,Culture Open Space,/openspace,Facilitated Peer Sharing,,presentation
+3:40 PM,Faster Objects and Arrays,/presentation/faster-objects-and-arrays,Gil Tene,/speakers/gil-tene,presentation
+3:40 PM,Design Patterns for Large Scale Data Movement,/presentation/design-patterns-large-scale-data-movement,Aaron Lee,/speakers/aaron-lee,presentation
+4:50 PM,Small Is Beautiful,/presentation/small-beautiful,Kevlin Henney,/speakers/kevlin-henney,presentation
+4:50 PM,Evolving a data system,/presentation/evolving-data-system,Simon Metson,/speakers/simon-metson,presentation
+4:50 PM,Making Continuous Delivery Work for You: The Songkick Experience,/presentation/making-continuous-delivery-work-you-songkick-experience,Amy Phillips,/speakers/amy-phillips,presentation
+4:50 PM,Cake Driven Development: Engineering at MOO.com,/presentation/engineering-culture-moocom,Mike Pearce,/speakers/mike-pearce,presentation
+4:50 PM,Java Open Space,/openspace,Facilitated Peer Sharing,,presentation
+4:50 PM,Practical Steps to Secure your APIs for Mobile,/presentation/tbd-2,Mark O’Neill,/speakers/mark-o%E2%80%99neill,presentation
+8:30 AM,Cluster management at Google,/keynote/cluster-management-google,John Wilkes,/speakers/john-wilkes,keynote
+10:20 AM,"Securing ""Platform as a Service"" with Docker and Weave",/presentation/securing-platform-service-docker-and-weave,David Pollak,/speakers/david-pollak,presentation
+10:20 AM,Back to the Future: what ever happened to being eXtreme?,/presentation/back-future-what-ever-happened-being-extreme,Rachel Davies,/speakers/rachel-davies,presentation
+10:20 AM,CloudFlare's fourth year of using Go,/presentation/tbd-5,John Graham Cumming,/speakers/john-graham-cumming,presentation
+10:20 AM,Your Thing is Pwnd: security challenges for the Internet of Things,/presentation/your-thing-pwnd-security-challenges-internet-things,Paul Fremantle,/speakers/paul-fremantle,presentation
+10:20 AM,Building the Halo 4 Services with Orleans,/presentation/building-halo-4-services-orleans,Caitie McCaffrey,/speakers/caitie-mccaffrey,presentation
+10:20 AM,Workflows the Open Source way - with BPMN 2.0 and camunda BPM,/presentation/workflows-open-source-way-bpmn-20-and-camunda-bpm,Bernd Ruecker,/speakers/bernd-ruecker,presentation
+10:20 AM,HMRC Digital: Platform As A Club,/presentation/hmrc-digital-platform-club,Alun Coppack,/speakers/alun-coppack,presentation
+11:30 AM,Docker Open Space,/openspace,Facilitated Peer Sharing,,presentation
+11:30 AM,The Minimum Viable Contract,/presentation/minimum-viable-contract,Gabrielle Benefield,/speakers/gabrielle-benefield,presentation
+11:30 AM,Infrastructure built in Go,/presentation/infrastructure-built-go,Jessie Frazelle,/speakers/jessie-frazelle,presentation
+11:30 AM,When arduino meets application server: love at second sight,/presentation/when-arduino-meets-application-server-love-second-sight,Holly Cummins,/speakers/holly-cummins,presentation
+11:30 AM,The Art of Protocol Design,/presentation/art-protocol-design,Pieter Hintjens,/speakers/pieter-hintjens,presentation
+11:30 AM,High Performance Continuous Delivery - Versioning and Release Management Aligned,/presentation/high-performance-continuous-delivery-versioning-and-release-management-aligned,Sven Erik Knop,/speakers/sven-erik-knop,presentation
+11:30 AM,What finance can learn from Dating sites,/presentation/what-finance-can-learn-dating-sites,Mark Needham,/speakers/mark-needham,presentation
+1:20 PM,Docker vs PaaS; May the Best Container Win,/presentation/docker-vs-paas,Colin Humphreys,/speakers/colin-humphreys,presentation
+1:20 PM,Agile Open Space,/openspace,Facilitated Peer Sharing,,presentation
+1:20 PM,The business of front-end development,/presentation/business-front-end-development,Rachel Andrew,/speakers/rachel-andrew,presentation
+1:20 PM,Building Functional Infrastructure with Mirage OS,/presentation/building-functional-infrastructure-mirage-os,Anil Madhavapeddy,/speakers/anil-madhavapeddy,presentation
+1:20 PM,Not Only Big Data,/presentation/not-only-big-data,Andrew Stewart,/speakers/andrew-stewart,presentation
+1:20 PM,Live coding: MongoDB and the Internet of Things (IoT) in real-time,/presentation/live-coding-mongodb-and-internet-things-iot-real-time,John Page,/speakers/john-page,presentation
+1:20 PM,Low latency Java in the real world - LMAX Exchange and the Zing JVM,/presentation/low-latency-java-real-world,Mark Price,/speakers/mark-price,presentation
+2:30 PM,Docker clustering - batteries included,/presentation/docker-clustering-batteries-included,Jessie Frazelle,/speakers/jessie-frazelle,presentation
+2:30 PM,"Progress from ""What?"" and ""So what?"" to ""NOW WHAT?""",/presentation/progress-what-and-so-what-now-what,Larry Maccherone,/speakers/larry-maccherone,presentation
+2:30 PM,HTML and JS Open Space,/openspace,Facilitated Peer Sharing,,presentation
+2:30 PM,Modelling complex game economy with a graph database,/presentation/modelling-complex-game-economy-graph-database,Yan Cui,/speakers/yan-cui,presentation
+2:30 PM,LDAP At Lightning Speed,/presentation/ldap-lightning-speed,Howard Chu,/speakers/howard-chu,presentation
+2:30 PM,Distribution as a Service - Your Download Server in a Box,/presentation/distribution-service-your-download-server-box,Baruch Sadogursky,/speakers/baruch-sadogursky,presentation
+2:30 PM,Ingesting HDFS data into Solr using Spark,/presentation/ingesting-hdfs-data-solr-using-spark,Wolfgang Hoschek,/speakers/wolfgang-hoschek,presentation
+3:40 PM,"Docker, Fig & Flocker",/presentation/docker-fig-flocker,Luke Marsden,/speakers/luke-marsden,presentation
+3:40 PM,Why BDD can save agile,/presentation/why-bdd-can-save-agile,Matt Wynne,/speakers/matt-wynne,presentation
+3:40 PM,"Asynchronous patterns for client, server, and IoT",/presentation/asynchronous-patterns-client-server-and-iot,Andrea Giammarchi,/speakers/andrea-giammarchi,presentation
+3:40 PM,CS Open Space,/openspace,Facilitated Peer Sharing,,presentation
+3:40 PM,Responding rapidly when you have 100GB+ data sets in Java,/presentation/responding-rapidly-when-you-have-100gb-data-sets-java,Peter Lawrey,/speakers/peter-lawrey,presentation
+3:40 PM,"When bet365 met Riak and discovered a true, ""always on"" database",/presentation/when-bet365-met-riak-and-discovered-true-always-database,Dan Macklin,/speakers/dan-macklin,presentation
+3:40 PM,"JCache(JSR107) The standard for Java Caching, It's finally here!",/presentation/jcachejsr107-standard-java-caching-its-finally-here,David Brimley,/speakers/david-brimley,presentation
+4:50 PM,How to Train your Docker Cloud,/presentation/clocker-creating-docker-cloud,Andrew Kennedy,/speakers/andrew-kennedy,presentation
+4:50 PM,Taking back agile,/presentation/taking-back-agile,Ruud Wijnands,/speakers/ruud-wijnands,presentation
+4:50 PM,Front-End Tools and Workflows,/presentation/front-end-tools-and-workflows,Sara Vieira,/speakers/sara-vieira,presentation
+4:50 PM,Protocols - The Glue for Applications,/presentation/protocols-glue-applications,Torben Hoffmann,/speakers/torben-hoffmann,presentation
+4:50 PM,Reactive Architecture Open Space,/openspace,Facilitated Peer Sharing,,presentation
+4:50 PM,"Microservices, Micro Deployments and DevOps",/presentation/microservices-micro-deployments-and-devops,Alois Reitbauer,/speakers/alois-reitbauer,presentation
+8:30 AM,Netflix built its own monitoring system - and why you probably shouldn't,/keynote/netflix-built-its-own-own-monitoring-system-and-why-you-probably-shouldnt,Roy Rapoport,/speakers/roy-rapoport,keynote
+10:20 AM,Scaling Uber's Realtime Market Platform,/presentation/scaling-ubers-realtime-market-platform,Matt Ranney,/speakers/matt-ranney,presentation
+10:20 AM,Electronic trading in 2015: faster or smarter?,/presentation/electronic-trading-2015-faster-or-smarter,Annalisa Sarasini,/speakers/annalisa-sarasini,presentation
+10:20 AM,The SenseMaker® method,/presentation/sensemaker-method,Tony Quinlan,/speakers/tony-quinlan,presentation
+10:20 AM,Microservices: software that fits in your head,/presentation/microservices-software-fits-your-head,Dan North,/speakers/dan-north,presentation
+10:20 AM,Taking the pain out of real-time mobile backend development,/presentation/taking-pain-out-real-time-mobile-backend-development,Mandy Waite,/speakers/mandy-waite,presentation
+11:30 AM,Architectures Open Space,/openspace,Facilitated Peer Sharing,,presentation
+11:30 AM,Reactive application design for high volume multi-dimensional temporal data series,/presentation/reactive-application-design-high-volume-multi-dimensional-temporal-data-series,Stuart Williams,/speakers/stuart-williams,presentation
+11:30 AM,The Bad Idea Terminator,/presentation/bad-idea-terminator,Melissa Perri,/speakers/melissa-perri,presentation
+11:30 AM,Microservices are too (conceptually) big,/presentation/microservices-are-too-conceptually-big,Philip Wills,/speakers/philip-wills,presentation
+11:30 AM,How we build rock-solid apps and keep 100M+ users happy at Shazam,/presentation/how-build-rock-solid-apps-and-keep-100m-users-happy,Iordanis Giannakakis,/speakers/iordanis-giannakakis,presentation
+1:20 PM,Rebuilding Atlas -- Advertising at Scale at Facebook,/presentation/rebuilding-atlas-advertising-scale-facebook,Jason McHugh,/speakers/jason-mchugh,presentation
+1:20 PM,Low latency Open Space,/openspace,Facilitated Peer Sharing,,presentation
+1:20 PM,Product thru the Looking Glass,/presentation/product-thru-looking-glass,Chris Matts,/speakers/chris-matts,presentation
+1:20 PM,Protocols of Interaction: Best Current Practices,/presentation/protocols-interaction-best-current-practices,Todd Montgomery,/speakers/todd-montgomery,presentation
+1:20 PM,Swift - Under the hood,/presentation/introduction-swift,Alex Blewitt,/speakers/alex-blewitt,presentation
+2:30 PM,Service Architectures at Scale:  Lessons from Google and eBay,/presentation/service-architectures-scale-lessons-google-and-ebay,Randy Shoup,/speakers/randy-shoup,presentation
+2:30 PM,Priming Java for Speed at Market Open,/presentation/priming-java-speed-market-open,Gil Tene,/speakers/gil-tene,presentation
+2:30 PM,Product Mastery Open Space,/openspace,Facilitated Peer Sharing,,presentation
+2:30 PM,"No Free Lunch, Indeed: Three Years of Micro-services at SoundCloud",/presentation/no-free-lunch-indeed-three-years-micro-services-soundcloud,Phil Calcado,/speakers/phil-calcado,presentation
+2:30 PM,Tales from making mobile games,/presentation/tales-making-mobile-games,Jesper Richter-Reichhelm,/speakers/jesper-richter-reichhelm,presentation
+3:40 PM,Building a Modern Microservices Architecture at Gilt: The Essentials,/presentation/building-modern-microservices-architecture-gilt-essentials,Yoni Goldberg,/speakers/yoni-goldberg,presentation
+3:40 PM,Java for low latency - you’ve got to be joking!,/presentation/java-low-latency-you%E2%80%99ve-got-be-joking,John Davies,/speakers/john-davies,presentation
+3:40 PM,Size Matters! Product Management from LittleCo to BigDeal,/presentation/size-matters-product-management-littleco-bigdeal,Lisa Long,/speakers/lisa-long,presentation
+3:40 PM,Microservices Open Space,/openspace,Facilitated Peer Sharing,,presentation
+3:40 PM,Java on iOS? Yes you can!,/presentation/java-ios-yes-you-can,Niklas Therning,/speakers/niklas-therning,presentation
+4:50 PM,Spotify Audio Delivery at Scale,/presentation/spotify-audio-delivery-scale,Niklas Gustavsson,/speakers/niklas-gustavsson,presentation
+4:50 PM,Aeron: The next generation in high-performance messaging,/presentation/aeron-next-generation-high-performance-messaging,Martin Thompson,/speakers/martin-thompson,presentation
+4:50 PM,Product ownership is a team sport,/presentation/product-ownership-team-sport,Shane Hastie,/speakers/shane-hastie,presentation
+4:50 PM,Operating microservices,/presentation/operating-microservices,Michael Brunton-Spall,/speakers/michael-brunton-spall,presentation
+4:50 PM,Mobile Open Space,/openspace,Facilitated Peer Sharing,,presentation
