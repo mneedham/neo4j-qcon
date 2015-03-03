@@ -1,0 +1,801 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://qconlondon.com/sites/all/themes/qconbs/images/qcon_london.jpg" />
+<meta property="og:url" content="http://qconlondon.com/presentation/java-low-latency-you%E2%80%99ve-got-be-joking" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/all/themes/qconbs/qcon-favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="http://qconlondon.com/node/2537" />
+<link rel="image_src" href="sites/all/themes/qconbs/images/qcon_london.jpg" />
+<link rel="dns-prefetch" href="//d3s75c3xtnyqxt.cloudfront.net" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta name="robots" content="follow, index" />
+<meta property="og:title" content="Java for low latency - you’ve got to be joking!" />
+<meta name="generator" content="QCon CMS" />
+<link rel="canonical" href="http://qconlondon.com/presentation/java-low-latency-you%E2%80%99ve-got-be-joking" />
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <link rel="icon" sizes="192x192" href="/sites/all/themes/qconbs/images/chrome-touch-icon-192x192.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <link rel="apple-touch-icon-precomposed" href="/sites/all/themes/qconbs/images/icon-128x128.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="/sites/all/themes/qconbs/images/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+    <title>Java for low latency - you’ve got to be joking! | Software Development Conference QCon London 2015</title>
+    <link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_LGa8NdDhGMn3R__0CK-E2UKtodvar7uToH2jNrGMITM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_uQsnHwHs67oVdCurY1pDeIdaxaY2FbSGbwKwHR49-A8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_eZ3p35qbpMElau5YqPT6uqOLsCc1hWBKiKaQN1wwWzk.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_E11FoOPDUEwg-H-Ow1SBC1AvIfnHhHBNuIEMrq8g4bA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_MbWyXE7ZX_qB8UaKOgqgEonrO3y1GjsW4QEchgMK104.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_T5fY9QTcDzLtGb03tG6cjl6Soc4QCLl30ZRD6xmQXn4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_RvIDmzrtXDKiFPnowA7bV9EqitXb1yvw5DsbbiiQ6f4.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_z84WG-WNrwoGSDVMKQdupOU9guISaMY2S5ch283C8qY.css" media="all" />
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_cejBscV2-gn4OgvUup9XD19q4fQF34ehgmx38ZKCCUE_panopoly-fonts-ie-open-sans.css.css" media="all" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_d0DHTZXAzgPaSB-DbyC0MbO_nfhe3_7WL41Uy-llpgk_panopoly-fonts-ie-open-sans-bold.css.css" media="all" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_i-aeqQbmFO8u-ubJ-ppu-AsQ7bJ7HHQr9rPMjtAi4XU_panopoly-fonts-ie-open-sans-italic.css.css" media="all" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_lcwBdVV6Sf7zp3eoeOw_xiLzeRWhhaBL2NpWPGpO2XI_panopoly-fonts-ie-open-sans-bold-italic.css.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/cdn/css/http/css_wigS70piKQxAQ-PhuV0Kv5yYuTDEoD4yq0VyEj5L7HY.css" media="all" />
+    <script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_0gj6QcpfRH2jzTbCQqf7kEkm4MXY0UA_sRhwPc8jC1o.js"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_bXejI0sehoRh1zeXYzFH-8KNh5shUO5q_TNck08xDlU.js"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_I2eMVPap5LfJhMYJU6obVjUBd9Y9rB-FjpOWi1-yvqU.js"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_vuCd40dUPCHEVUhrM4uo14FpT6Kb7ko4uSBJ3mIUuI8.js"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/all/modules/lightbox2/js/lightbox.js?1425342789"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_rv_BKYv7yieH0IgHddhWHDC-bWGan8yiJbusyOpr0mw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-9611573-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_xza51gRKd-DDm8ZutFDynCREGOzyWI6IOk-MIpwpULI.js"></script>
+<script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_g7-1g8yU9r88wguv5ex5NbrPrQ7UeBrq9DQODGKLQmg.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"qconbs","theme_token":"IbaBQJ3CJBD1u9SC1GZaGLjk8IcwPdFQm0J52DCfMFk","js":{"sites\/all\/modules\/panopoly_widgets\/panopoly-widgets.js":1,"sites\/all\/modules\/panopoly_widgets\/jquery-ui-tabs-rotate.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/qtip\/library\/jquery.qtip.js":1,"sites\/all\/modules\/qtip\/js\/qtip.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/panopoly_admin\/panopoly-admin.js":1,"sites\/all\/modules\/panopoly_magic\/panopoly-magic.js":1,"sites\/all\/modules\/panopoly_theme\/js\/panopoly-accordion.js":1,"sites\/all\/modules\/qcon_schedule\/js\/qcon_schedule.js":1,"sites\/all\/modules\/resp_img\/resp_img.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox_video.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/libraries\/qconbs_bootstrap\/js\/bootstrap.min.js":1,"sites\/all\/themes\/qconbs\/js\/qconbs.js":1,"sites\/all\/themes\/qconbs\/js\/responsive-tables.js":1,"sites\/all\/themes\/qconbs\/js\/eqheight.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/qtip\/library\/jquery.qtip.css":1,"sites\/all\/modules\/qtip\/css\/qtip.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-fonts.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-dropbutton.css":1,"sites\/all\/modules\/panopoly_magic\/css\/panopoly-magic.css":1,"sites\/all\/modules\/panopoly_theme\/css\/panopoly-featured.css":1,"sites\/all\/modules\/panopoly_theme\/css\/panopoly-accordian.css":1,"sites\/all\/modules\/panopoly_widgets\/panopoly-widgets.css":1,"sites\/all\/modules\/qcon_registrations\/css\/qcon_registrations.css":1,"sites\/all\/modules\/qcon_schedule\/css\/qcon_schedule.css":1,"sites\/all\/modules\/qcon_schedule\/css\/qcon_schedule_print.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/default\/files\/sl_sprites.css":1,"sites\/all\/themes\/qconbs\/layouts\/qconbase\/qconbase.css":1,"sites\/all\/themes\/qconbs\/layouts\/qconfooter\/qconfooter.css":1,"sites\/all\/modules\/panopoly_theme\/plugins\/layouts\/brenham\/brenham.css":1,"sites\/all\/modules\/panopoly_theme\/plugins\/layouts\/moscone\/moscone.css":1,"sites\/all\/modules\/panopoly_theme\/plugins\/layouts\/geary\/geary.css":1,"sites\/all\/themes\/qconbs\/layouts\/qconheader\/qconheader.css":1,"http:\/\/netdna.bootstrapcdn.com\/font-awesome\/4.0.3\/css\/font-awesome.min.css":1,"sites\/all\/libraries\/qconbs_bootstrap\/css\/bootstrap.min.css":1,"sites\/all\/themes\/kalatheme\/css\/tweaks.css":1,"sites\/all\/themes\/kalatheme\/css\/panopoly.css":1,"sites\/all\/themes\/qconbs\/css\/main.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-fonts-ie-open-sans.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-bold.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-italic.css":1,"sites\/all\/modules\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-bold-italic.css":1,"sites\/all\/modules\/panopoly_images\/panopoly-images.css":1}},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":650,"iframe_height":450,"iframe_border":1,"enable_video":1,"flvPlayer":"\/","flvFlashvars":""},"CToolsModal":{"modalSize":{"type":"scale","width":".9","height":".9","addWidth":0,"addHeight":0,"contentRight":25,"contentBottom":75},"modalOptions":{"opacity":".55","background-color":"#FFF"},"animationSpeed":"fast","modalTheme":"CToolsModalDialog","throbberTheme":"CToolsModalThrobber"},"qtip":{"target_position":"top_right","tooltip_position":"bottom_left","show_speech_bubble_tip":true,"show_speech_bubble_tip_side":false,"speech_bubble_size":12,"show_speech_bubble_tip_solid":false,"show_shadow":false,"rounded_corners":false,"color":"","custom_color":"","show_event_type":"mouseenter","hide_event_type":"mouseleave","show_webform_descriptions":false,"additional_elements":""},"respImg":{"default_suffix":"","current_suffix":false,"forceRedirect":false,"forceResize":false,"reloadOnResize":false,"useDevicePixelRatio":false,"suffixes":{"":1}},"statuses":{"autofocus":false,"noautoclear":false,"maxlength":"400","hideLength":"0","refreshLink":false},"spotlight_settings":{"rotation_time":4000},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"clientsideValidation":{"general":{"months":{"January":1,"Jan":1,"February":2,"Feb":2,"March":3,"Mar":3,"April":4,"Apr":4,"May":5,"June":6,"Jun":6,"July":7,"Jul":7,"August":8,"Aug":8,"September":9,"Sep":9,"October":10,"Oct":10,"November":11,"Nov":11,"December":12,"Dec":12}}}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+    <script>
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+    </script>
+    <![endif]-->
+  
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-2537 node-type-presentation region-content" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-focusable element-invisible">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <!-- Page Main -->
+  <div id="main-wrapper" class="clearfix">
+    <main id="main" class="clearfix" role="main">
+      <div id="top-content">
+        <div class="column container">
+          <a id="main-content"></a>
+          
+          
+          
+                  </div>
+      </div> <!-- /.section, /#top-content -->
+
+      <div id="content">
+        <div class="column ">
+            <div class="region region-content">
+    
+<div class="panel-display qconbase clearfix " >
+  <section class="section">
+    <div class="qcon-base-top">
+        <div class="qcon-top-col">
+          <div class="panel-pane pane-panels-mini pane-header-minipanel" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panel-display qconheader clearfix " id="mini-panel-header_minipanel">
+  <section class="section">
+    <div class="header"> <!--container-->
+      <div class="row">
+        <div class="col-xs-4 col-sm-5 qcon-header-left-col">
+            <div class="row">
+                <div class="col-sm-5 qcon-header-left-left-col"><div class="panel-pane pane-custom pane-14 qcon-logo-header" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="logo"><a href="/"><img src="/sites/all/themes/qconbs/images/logo.png" alt="QCon" class="logo-normal" border="0" /><img src="/sites/all/themes/qconbs/images/logo2x.png" alt="QCon" class="logo-retina" border="0" /></a></div>
+  </div>
+
+  
+  </div>
+</div>
+                <div class="col-sm-7 qcon-header-left-right-col"><div class="panel-pane pane-custom pane-15 qcon-conference-dates-header" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="conference-dates small strong"><span class="caps green">Tutorials:</span> <span class="blue">March 2-3, 2015</span><br /> <span class="caps green">Conference:</span> <span class="blue">March 4-6, 2015</span></div>
+  </div>
+
+  
+  </div>
+</div>
+            </div>            
+        </div>
+        <div class="col-xs-8 col-sm-7 qcon-header-rigth-col">
+            <div class="row">
+                <div class="col-sm-12 qcon-header-right-top-col"><div class="panel-pane pane-custom pane-17 qcon-follow-header" >
+  
+      
+  
+  <div class="pane-content">
+    <ul class="social">
+<li><a class="twitter icon replace" href="https://twitter.com/QConLondon" target="_blank">Twitter</a></li>
+<li><a class="facebook icon replace" href="https://www.facebook.com/QCon" target="_blank">Facebook</a></li>
+<li><a class="googleplus icon replace" href="https://plus.google.com/+Qconferences1" target="_blank">Google Plus</a></li>
+<!--li><p><a class="youtube icon replace" href="https://www.youtube.com/channel/UCLI_iq5wEySHTOb7xk2F7Ww" target="_blank">YouTube</a></li>
+<li><a class="flickr icon replace" href="http://www.flickr.com/photos/qconpictures/collections/" target="_blank">Flickr</a></li--></ul>
+  </div>
+
+  
+  </div>
+</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7 qcon-header-right-left-col"><div class="panel-pane pane-menu-tree pane-menu-qcon-menu-main-header qcon-menu-main-header" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-menu-qcon-menu-main-header-1 menu-name-menu-qcon-menu-main-header parent-mlid-0 menu-level-1">
+  <ul class="menu clearfix" role="menu"><li class="first leaf menu-mlid-3063" role="presentation"><a href="/schedule#day-2" title="" role="menuitem">Schedule</a></li>
+<li class="leaf menu-mlid-2950" role="presentation"><a href="/speakers" role="menuitem">Speakers</a></li>
+<li class="last leaf menu-mlid-2951" role="presentation"><a href="/sponsors" role="menuitem">Sponsors</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+</div>
+                <div class="col-sm-5 qcon-header-right-right-col"><div class="panel-pane pane-custom pane-16 qcon-btn-register-header hidden-xs hidden-sm" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="cta"><a class="main-btn" href="http://qconlondon.com/schedule" target="_blank"> <span>QCon London 2015<br />SOLD OUT!!</span></a></div>
+  </div>
+
+  
+  </div>
+</div>
+            </div>
+        </div>        
+    </div>
+    </div> <!-- /.container -->
+</section>
+</div><!-- /.qconheader -->
+  </div>
+
+  
+  </div>
+        </div>
+    </div> <!-- /.top -->
+    <div class="qcon-base-main">
+        <div class="qcon-main-col">
+          <div class="panel-pane pane-panels-mini pane-block-1-single-presentation-mini" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panel-display brenham clearfix " id="mini-panel-block_1_single_presentation_mini">
+  <section class="section alt" id="promo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 brenham-promo">
+          <div class="panel-pane pane-custom pane-4" >
+  
+      
+  
+  <div class="pane-content">
+    <h1><b>Presentation:</b> Java for low latency - you’ve got to be joking!</h1>
+  </div>
+
+  
+  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 brenham-main-side">
+          <div class="panel-pane pane-entity-field pane-node-field-track" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-track field-type-entityreference field-label-inline clearfix"><div class="field-label">Track:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/track/low-latency-trading">Low latency trading</a></div></div></div>  </div>
+
+  
+  </div>
+        </div>
+        <div class="col-md-8 brenham-main-content">
+          <div class="panel-pane pane-entity-field pane-node-field-abstract" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-abstract field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>The term “Low latency” is relative, for some it’s measured in microseconds but when you get to the serious end you’re down to 2-3&nbsp;microseconds&nbsp;using&nbsp;FPGA cards on co-hosted machines, not Java or even C/C++. Java can however operate comfortably in the sub-microsecond arena if you lean it out.</p>
+<p>&nbsp;</p>
+<p>One of the quickest wins is reducing object allocation and garbage collection. With a few simple changes to you code you can make huge differences to the way it works, lower memory usage, reduced object allocation and of course less garbage to collect. All this means the CPU does more of what we want it to rather than house keeping. We can effectively get Java to performance close to C/C++.</p>
+<p>&nbsp;</p>
+<p>John walk through and demonstrate how you can reduce latency while increasing throughput in your applications. The demos will use financial data from CSVs and FIX to complex FpML derivatives all running in Java 8 and a few lambdas. No financial service experience required, just 60 billion nanoseconds of your time.</p>
+</div></div></div>  </div>
+
+  
+  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div><!-- /.brenham -->
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-eachspeaker-pane" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panel-display brenham clearfix " id="mini-panel-speaker_similar_talks_minipanel">
+  <section class="section alt" id="promo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 brenham-promo">
+          <div class="panel-pane pane-user-profile" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panelizer-view-mode user user-teaser user-user user-1137">
+        
+<div class="panel-display moscone clearfix " >
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 moscone-main-container">
+          <div class="panel-pane pane-custom pane-7 qcon-speaker-teaser-name" >
+  
+      
+  
+  <div class="pane-content">
+    <p><strong>Speaker:</strong> John Davies</p>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-custom pane-8 qcon-speaker-teaser-company" >
+  
+      
+  
+  <div class="pane-content">
+    <p>Co-founder and CTO of C24</p>
+  </div>
+
+  
+  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 moscone-sidebar-area">
+          <div class="panel-pane pane-entity-field pane-user-field-picture" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-picture field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/speakers/john-davies"><img class="img-single-track" typeof="foaf:Image" src="http://d3s75c3xtnyqxt.cloudfront.net/sites/default/files/styles/img-single-track/public/john%20davies.jpg?itok=sB__faq6" width="320" height="320" alt="" /></a></div></div></div>  </div>
+
+  
+  </div>
+        </div>
+        <div class="col-md-8 moscone-main-content">
+          <div class="panel-pane pane-entity-field pane-user-field-bio" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-bio field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">OMG, 30 years in technology! Hardware, assembler, C, C++ and almost 20 years of Java. From head of trading technology to global head of architecture in large investment banks, now co-founder and CTO of C24. Founded in 2000, sold to NASDAQ’s Iona Technologies in 2007 and bought back in 2011, C24 is an integration company working mainly in the investment banking world with standards like FIX, FpML, ISO-20022 and SWIFT. For the last year C24 has been developing a new binding technology (SDO’s) that compacts messages in memory by as much as 50 times with no loss of performance, it’s already being used in the telco world to parse at over a million messages a second.</div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-custom pane-5 qcon-speaker-teaser-find-at" >
+  
+      
+  
+  <div class="pane-content">
+    <div style="display: block;" class="pane-content">
+<h3>Find John Davies at</h3>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-custom pane-6" >
+  
+      
+  
+  <div class="pane-content">
+    <div style="display: block;" class="pane-content">
+<p><a title="Speaker page" href="http://qconlondon.com/speakers/john-davies">Speaker page</a></p>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-user-field-twitter qcon-speaker-teaser-twitter" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-twitter field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://twitter.com/jtdavies">https://twitter.com/jtdavies</a></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-user-field-linkedin qcon-speaker-teaser-linkedin" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-linkedin field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://uk.linkedin.com/in/jdavies">https://uk.linkedin.com/in/jdavies</a></div></div></div>  </div>
+
+  
+  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="section" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 moscone-footer-area">
+                  </div>
+      </div>
+    </div>
+  </footer>
+</div><!-- /.moscone -->
+</div>  </div>
+
+  
+  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 brenham-main-side">
+                  </div>
+        <div class="col-md-8 brenham-main-content">
+                  </div>
+      </div>
+    </div>
+  </section>
+</div><!-- /.brenham -->
+
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-panels-mini pane-tracks-minipanel" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panel-display geary clearfix " id="mini-panel-tracks_minipanel">
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 geary-main-container">
+          <div class="panel-pane pane-custom pane-12 qcon-home-title-tracks" >
+  
+      
+  
+  <div class="pane-content">
+    <h1 class="center nomargin head-black">Tracks</h1>
+<h4 class="center green subtitle semistrong">Covering innovative topics</h4>
+  </div>
+
+  
+  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 geary-column-content-region-1">
+          <div class="panel-pane pane-custom pane-9" >
+  
+      
+  
+  <div class="pane-content">
+    <h2>Wednesday, 4 March </h2>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-views-panes pane-tracks-panel-pane-1" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-tracks view-id-tracks view-display-id-panel_pane_1 view-dom-id-088f3540efcfe731e8d36e01f8c3556a">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/architecture-improvements">Architecture Improvements  </a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>Next gen architecture, Arch over the full lifecycle, Bleeding edge tech in legacy, Cognitive biases in architecture, Evolving Architecture.</p>
+</div>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/big-data-frameworks-big-data-architectures-and-data-science">Big Data Frameworks, Architectures, and Data Science</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>As big data tools and architectures continue to evolve, how do you architect and select technologies that work now but are also future-proof?</p>
+</div>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/devops-and-continuous-delivery-code-beyond-dev-team">DevOps and Continuous Delivery: Code Beyond the Dev Team</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>As infrastructure becomes as malleable as code, a unified approach from reqs to ops is needed to deliver promised breakthroughs.</p>
+</div>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/engineering-culture">Engineering Culture</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>The best teams and companies talk about how to create amazing engineering cultures.</p>
+</div>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/java-not-dead-yet">Java - Not Dead Yet</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>Java is evolving to meet developer and business needs, from lambdas in Java 8 to built-in support for money types rumoured for Java 9.</p>
+</div>  </div></li>
+          <li class="views-row views-row-6 views-row-even views-row-last">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/mind-matters-work">Mind Matters at Work</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>How theories from neuroscience and psychology can help us better understand IT professionals and discover what really motivates them.</p>
+</div>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+        </div>
+        <div class="col-sm-4 geary-column-content-region-2">
+          <div class="panel-pane pane-custom pane-10" >
+  
+      
+  
+  <div class="pane-content">
+    <h2>Thursday, 5 March </h2>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-views-panes pane-tracks-panel-pane-1" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-tracks view-id-tracks view-display-id-panel_pane_1 view-dom-id-702d68d3d3bc9ca17221d30edb87020d">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/docker-containers-and-application-portability">Docker, containers and application portability</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>People building stuff for and with containers showing why application portability is important, and what can be done with expanding ecosystems.</p>
+</div>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/evolving-agile">Evolving agile</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>Reflecting on and learning from successes and failures in applying agile approaches since the creation of the Agile Manifesto and exploring ways of applying agile practices to increase business value.</p>
+</div>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/html-and-js-today">HTML and JS Today</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>The state of the art in web technologies. What is important to know and why?</p>
+</div>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/internet-things">Internet of Things</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>What software devs need to know to design and build for instrumented environments and reactive things, what new issues and questions it raises.</p>
+</div>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/modern-cs-real-world">Modern CS in the Real World</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>How modern CS helps you tackle today's problems.</p>
+</div>  </div></li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/reactive-architecture">Reactive Architecture</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>How to create reactive systems is more than simply learning a framework. Thinking in a reactive way helps you to design responsive architectures.</p>
+</div>  </div></li>
+          <li class="views-row views-row-7 views-row-odd views-row-last">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/go-language">The Go Language</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>The Go Language - Concurrency, Performance, Systems Programming.</p>
+</div>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+        </div>
+        <div class="col-sm-4 geary-column-content-region-3">
+          <div class="panel-pane pane-custom pane-11" >
+  
+      
+  
+  <div class="pane-content">
+    <h2>Friday, 6 March </h2>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-views-panes pane-tracks-panel-pane-1" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-tracks view-id-tracks view-display-id-panel_pane_1 view-dom-id-94709b65dc92f2a7daefac86de5fb3f0">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/architectures-youve-always-wondered-about-0">Architectures You&#039;ve Always Wondered About</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>Get a rare look behind the scenes and get to see the architectures of the most well-known sites with the least known architectures.</p>
+</div>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/low-latency-trading">Low latency trading</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>The 'race to zero' continues. Join us to learn about the latest tecniques being deployed to optimise order routing and execution.</p>
+</div>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/open-source-finance">Open source in finance</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>Financial services have changed from OS as cost-saving to a competitive weapon. See open source projects that are disrupting the finance industry.</p>
+</div>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/product-mastery">Product Mastery</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>Come have fun with fellow PMs and BAs as you learn about Value Management. We'll even tell you dark tales of Snarks, Hippos and other obstacles.</p>
+</div>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/taming-microservices">Taming Microservices</a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>Tackling the challenges of microservices in practice.</p>
+</div>  </div></li>
+          <li class="views-row views-row-6 views-row-even views-row-last">  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="/track/taming-mobile">Taming Mobile </a></span>  </span>  
+  <div class="views-field views-field-field-short-description">        <div class="field-content"><p>Mobile is no longer the Next Big Thing but a requirement for your business. Hear from those who have implemented successful mobile systems.</p>
+</div>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div><!-- /.geary -->
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-custom pane-13" >
+  
+      
+  
+  <div class="pane-content">
+    <p><a class="button" href="/london-2014/london-2014/speakers/index.html"> <span class="big bgblue fixed-width-btn white">LAST YEARS TRACKS</span> </a><span class="choose"> or </span> <a class="button" href="/london-2014/london-2014/schedule/wednesday.jsp.html"> <span class="big bgblue fixed-width-btn white">LAST YEARS SCHEDULE</span> </a></p>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-fieldable-panels-pane pane-fpid-6 pane-bundle-text" >
+  
+        <h4 class="pane-title"> Conference for Professional Software Developers</h4>
+    
+  
+  <div class="pane-content">
+    <div class="fieldable-panels-pane">
+    </div>
+  </div>
+
+  
+  </div>
+        </div>
+    </div> <!-- /.main -->
+    <div class="qcon-base-footer">
+        <div class="qcon-footer-col">
+          <div class="panel-pane pane-panels-mini pane-footer-minipanel" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panel-display qconfooter clearfix " id="mini-panel-footer_minipanel">
+  <section class="section">
+    <div class="pre-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 qcon-pre-footer-col">
+                  <div class="panel-pane pane-custom pane-2 qcon-follow-footer" >
+  
+        <h4 class="pane-title">Follow QCon</h4>
+    
+  
+  <div class="pane-content">
+    <ul class="social">
+<li><a class="twitter icon replace" href="https://twitter.com/QConLondon" target="_blank">Twitter</a></li>
+<li><a class="facebook icon replace" href="https://www.facebook.com/QCon" target="_blank">Facebook</a></li>
+<li><a class="googleplus icon replace" href="https://plus.google.com/+Qconferences1" target="_blank">Google Plus</a></li>
+<!--li><p><a class="youtube icon replace" href="https://www.youtube.com/channel/UCLI_iq5wEySHTOb7xk2F7Ww" target="_blank">YouTube</a></li>
+<li><a class="flickr icon replace" href="http://www.flickr.com/photos/qconpictures/collections/" target="_blank">Flickr</a></li--></ul>
+  </div>
+
+  
+  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 qcon-pre-footer-col">
+                  <div class="panel-pane pane-menu-tree pane-menu-qcon-menu-contact-footer qcon-menu-contact-footer" >
+  
+        <h4 class="pane-title">Contact</h4>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-menu-qcon-menu-contact-footer-1 menu-name-menu-qcon-menu-contact-footer parent-mlid-0 menu-level-1">
+  <ul class="menu clearfix" role="menu"><li class="first leaf menu-mlid-2106" role="presentation"><a href="mailto:general@qconlondon.com" title="" target="_blank" role="menuitem">general@qconlondon.com</a></li>
+<li class="leaf menu-mlid-2107" role="presentation"><a href="mailto:speaking@qconlondon.com" title="" target="_blank" role="menuitem">speaking@qconlondon.com</a></li>
+<li class="last leaf menu-mlid-2105" role="presentation"><a href="mailto:sponsors@qconlondon.com" title="" target="_blank" role="menuitem">sponsors@qconlondon.com</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 qcon-pre-footer-col">
+                  <div class="panel-pane pane-menu-tree pane-menu-qcon-menu-footer qcon-menu-footer" >
+  
+        <h4 class="pane-title">Menu</h4>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-menu-qcon-menu-footer-1 menu-name-menu-qcon-menu-footer parent-mlid-0 menu-level-1">
+  <ul class="menu clearfix" role="menu"><li class="first leaf menu-mlid-2109" role="presentation"><a href="/" role="menuitem">Home</a></li>
+<li class="leaf menu-mlid-3045" role="presentation"><a href="/schedule" title="" role="menuitem">Schedule</a></li>
+<li class="leaf menu-mlid-3042" role="presentation"><a href="/tracks" role="menuitem">Tracks</a></li>
+<li class="leaf menu-mlid-3035" role="presentation"><a href="/speakers" role="menuitem">Speakers</a></li>
+<li class="leaf menu-mlid-3044" role="presentation"><a href="/tutorials" role="menuitem">Tutorials</a></li>
+<li class="leaf menu-mlid-3041" role="presentation"><a href="/open-space" role="menuitem">Open Space</a></li>
+<li class="leaf menu-mlid-3043" role="presentation"><a href="/social-events" role="menuitem">Social Events</a></li>
+<li class="leaf menu-mlid-2853" role="presentation"><a href="/hotel" role="menuitem">Hotel</a></li>
+<li class="leaf menu-mlid-2854" role="presentation"><a href="/volunteers" role="menuitem">Volunteer</a></li>
+<li class="leaf menu-mlid-2945" role="presentation"><a href="/sponsors" role="menuitem">Sponsors</a></li>
+<li class="leaf menu-mlid-2848" role="presentation"><a href="/code-conduct" role="menuitem">Code of Conduct</a></li>
+<li class="last leaf menu-mlid-2855" role="presentation"><a href="http://qconferences.com" target="_blank" title="" role="menuitem">About</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 qcon-pre-footer-col">
+                  <div class="panel-pane pane-custom pane-3 qcon-around-footer" >
+  
+        <h4 class="pane-title">QCons around the World</h4>
+    
+  
+  <div class="pane-content">
+    <ul>
+<li><a href="http://qconlondon.com/" target="_blank"> <span class="sprite london"></span>London / <span class="caps small">2 - 6 March 2015</span> </a></li>
+<li><a href="http://www.qconsp.com/" target="_blank"> <span class="sprite sao-paulo"></span>São Paulo / <span class="caps small">23 - 27 March 2015</span> </a></li>
+<li><a href="http://qcontokyo.com/" target="_blank"> <span class="sprite tokyo"></span>Tokyo / <span class="caps small">21 April 2015</span> </a></li>
+<li><a href="http://www.qconbeijing.com/" target="_blank"> <span class="sprite beijing"></span>Beijing / <span class="caps small">23-25 April 2015</span> </a></li>
+<li><a href="https://qconnewyork.com/" target="_blank"> <span class="sprite nyc"></span>New York / <span class="caps small">8 - 12 June 2015</span> </a></li>
+<li><a href="http://www.qconrio.com/" target="_blank"> <span class="sprite rio"></span>Rio de Janeiro / <span class="caps small">21 - 25 September 2015</span> </a></li>
+<li><a href="http://www.qconshanghai.com/" target="_blank"> <span class="sprite shanghai"></span>Shanghai / <span class="caps small">15 - 17 October 2015</span> </a></li>
+<li><a href="http://qconsf.com/" target="_blank"> <span class="sprite san-francisco"></span>San Francisco / <span class="caps small">16 - 20 November 2015</span> </a></li>
+</ul>
+  </div>
+
+  
+  </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- /.container -->
+    <div class="footer container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 qconfooter">
+          <div class="panel-pane pane-custom pane-1 qcon-logo-footer" >
+  
+      
+  
+  <div class="pane-content">
+    <p><a href="/"><img class="logo-footer" src="/sites/all/themes/qconbs/images/logo_footer.jpg" alt="Qcon" border="0" height="108" width="208" /></a></p>
+  </div>
+
+  
+  </div>
+        </div>
+      </div>
+    </div> <!-- /.container -->
+</section>
+</div><!-- /.qconfooter -->
+  </div>
+
+  
+  </div>
+        </div>
+    </div> <!-- /.footer -->
+</section>
+</div><!-- /.qconbase -->
+  </div>
+        </div>
+      </div> <!-- /.section, /#content -->
+
+    </main><!-- /#main -->
+  </div> <!-- /#main-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  <script type="text/javascript" src="http://qconlondon.com/sites/default/files/js/js_YW4M61Zd2TfUR4lWA4l5yNa6ecXtgEXUI-LMqC2cHfM.js"></script>
+</body>
+</html>

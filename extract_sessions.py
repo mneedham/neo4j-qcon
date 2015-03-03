@@ -11,17 +11,15 @@ days = ["Wednesday", "Thursday", "Friday"]
 
 with open("data/sessions.csv", 'w') as sessions_file:
     writer = csv.writer(sessions_file, delimiter=',')
-    writer.writerow(["day", "time",
+    writer.writerow(["sessionId", "day", "time",
                      "talkTitle", "talkHref",
                      "speaker", "speakerHref",
                      "trackTitle", "trackHref",
                      "host", "hostHref",
                      "type", "room"])
 
-    count = 0
+    session_id = 0
     for day_number, day in enumerate(select(soup, "table.schedule-full")):
-        # if count > 0:
-        #     sys.exit()
         day_of_week = days[day_number]
         tracks = [{}, {}, {}, {}, {}, {}, {}]
         locations = ["", "", "", "", "", "", ""]
@@ -43,9 +41,10 @@ with open("data/sessions.csv", 'w') as sessions_file:
 
                 room = "".join([y.strip() for y in list(room_container.children)]).replace("by", "")
                 speaker = " ".join([part for part in speaker.split(" ") if part])
-                row = [word.strip().encode("utf-8") for word in [day_of_week, time, title, title_href, speaker, speaker_href, "", "", "", "", "keynote", room]]
+                row = [word.strip().encode("utf-8") for word in [str(session_id), day_of_week, time, title, title_href, speaker, speaker_href, "", "", "", "", "keynote", room]]
 
                 writer.writerow(row)
+                session_id += 1
                 continue
 
             if "track-th" in row['class']:
@@ -90,12 +89,11 @@ with open("data/sessions.csv", 'w') as sessions_file:
 
                     row = [word.strip().encode("utf-8")
                            for word in
-                           [day_of_week,time,
+                           [str(session_id), day_of_week,time,
                             title, title_href,
                             speaker, speaker_href,
                             track_info['title'], track_info['title_href'],
                             track_info['host'], track_info['host_href'],
                             "presentation", locations[column]]]
                     writer.writerow(row)
-
-        count +=1
+                    session_id += 1
