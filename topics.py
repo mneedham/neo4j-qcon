@@ -43,19 +43,35 @@ n_top_words = 50
 n_features = 6000
 
 # tf = TfidfVectorizer(analyzer='word', ngram_range=(1,3), min_df = 0, stop_words = 'english')
+tf = CountVectorizer(analyzer='word', ngram_range=(1,1), min_df = 0, stop_words = 'english')
 tfidf_matrix =  tf.fit_transform(corpus)
 feature_names = tf.get_feature_names()
 
-with open("data/tfidf_scikit.csv", "w") as file:
+import lda
+import numpy as np
+
+vocab = feature_names
+
+model = lda.LDA(n_topics=20, n_iter=500, random_state=1)
+model.fit(tfidf_matrix)
+topic_word = model.topic_word_
+n_top_words = 20
+
+with open("data/topics.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")
-    writer.writerow(["SessionId", "Phrase", "Score"])
-    doc_id = 0
-    for doc in tfidf_matrix.todense():
-        print "Document %d" %(doc_id)
-        word_id = 0
-        for score in doc.tolist()[0]:
-            if score > 0:
-                word = feature_names[word_id]
-                writer.writerow([doc_id, word.encode("utf-8"), score])
-            word_id +=1
-        doc_id +=1
+    writer.writerow(["topicId", "word"])
+
+    for i, topic_dist in enumerate(topic_word):
+        topic_words = np.array(vocab)[np.argsort(topic_dist)][:-n_top_words:-1]
+        for topic_word in topic_words:
+            writer.writerow([i, topic_word])
+        # print('Topic {}: {}'.format(i, ' '.join(topic_words)))
+
+with open("data/sessions-topics.csv", "w") as file:
+    writer = csv.writer(file, delimiter=",")
+    writer.writerow(["sessionId", "topicId"])
+
+    doc_topic = model.doc_topic_
+    for i in range(0, len(titles)):
+        writer.writerow([i, doc_topic[i].argmax()])
+        print("{} (top topic: {})".format(titles[i], doc_topic[i].argmax()))
