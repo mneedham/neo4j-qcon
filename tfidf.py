@@ -42,7 +42,7 @@ n_topics = 15
 n_top_words = 50
 n_features = 6000
 
-# tf = TfidfVectorizer(analyzer='word', ngram_range=(1,3), min_df = 0, stop_words = 'english')
+tf = TfidfVectorizer(analyzer='word', ngram_range=(1,3), min_df = 0, stop_words = 'english')
 tfidf_matrix =  tf.fit_transform(corpus)
 feature_names = tf.get_feature_names()
 
