@@ -1,21 +1,14 @@
-from __future__ import print_function
-from time import time
-
 import csv
-import sys
-import os
 
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.decomposition import NMF
 from collections import defaultdict
 from bs4 import BeautifulSoup, NavigableString
 from soupselect import select
-from sklearn.decomposition import TruncatedSVD
 
 def uri_to_file_name(uri):
     return uri.replace("/", "-")
 
-t0 = time()
 sessions = {}
 with open("data/sessions.csv", "r") as sessions_file:
     reader = csv.reader(sessions_file, delimiter = ",")
@@ -42,10 +35,10 @@ n_topics = 15
 n_top_words = 50
 n_features = 6000
 
-# tf = TfidfVectorizer(analyzer='word', ngram_range=(1,3), min_df = 0, stop_words = 'english')
-tf = CountVectorizer(analyzer='word', ngram_range=(1,1), min_df = 0, stop_words = 'english')
-tfidf_matrix =  tf.fit_transform(corpus)
-feature_names = tf.get_feature_names()
+# vectorizer = TfidfVectorizer(analyzer='word', ngram_range=(1,1), min_df = 0, stop_words = 'english')
+vectorizer = CountVectorizer(analyzer='word', ngram_range=(1,1), min_df = 0, stop_words = 'english')
+matrix =  vectorizer.fit_transform(corpus)
+feature_names = vectorizer.get_feature_names()
 
 import lda
 import numpy as np
@@ -53,25 +46,35 @@ import numpy as np
 vocab = feature_names
 
 model = lda.LDA(n_topics=20, n_iter=500, random_state=1)
-model.fit(tfidf_matrix)
+model.fit(matrix)
 topic_word = model.topic_word_
 n_top_words = 20
 
-with open("data/topics.csv", "w") as file:
-    writer = csv.writer(file, delimiter=",")
-    writer.writerow(["topicId", "word"])
+for i, topic_dist in enumerate(topic_word):
+    topic_words = np.array(vocab)[np.argsort(topic_dist)][:-n_top_words:-1]
+    print('Topic {}: {}'.format(i, ' '.join(topic_words)))
 
-    for i, topic_dist in enumerate(topic_word):
-        topic_words = np.array(vocab)[np.argsort(topic_dist)][:-n_top_words:-1]
-        for topic_word in topic_words:
-            writer.writerow([i, topic_word])
-        # print('Topic {}: {}'.format(i, ' '.join(topic_words)))
+doc_topic = model.doc_topic_
+for i in range(0, len(titles)):
+    print("{} (top topic: {})".format(titles[i], doc_topic[i].argmax()))
+    print(doc_topic[i].argsort()[::-1][:3])
 
-with open("data/sessions-topics.csv", "w") as file:
-    writer = csv.writer(file, delimiter=",")
-    writer.writerow(["sessionId", "topicId"])
-
-    doc_topic = model.doc_topic_
-    for i in range(0, len(titles)):
-        writer.writerow([i, doc_topic[i].argmax()])
-        print("{} (top topic: {})".format(titles[i], doc_topic[i].argmax()))
+# with open("data/topics.csv", "w") as file:
+#     writer = csv.writer(file, delimiter=",")
+#     writer.writerow(["topicId", "word"])
+#
+#     for i, topic_dist in enumerate(topic_word):
+#         topic_words = np.array(vocab)[np.argsort(topic_dist)][:-n_top_words:-1]
+#         for topic_word in topic_words:
+#             writer.writerow([i, topic_word])
+#         print('Topic {}: {}'.format(i, ' '.join(topic_words)))
+#
+# with open("data/sessions-topics.csv", "w") as file:
+#     writer = csv.writer(file, delimiter=",")
+#     writer.writerow(["sessionId", "topicId"])
+#
+#     doc_topic = model.doc_topic_
+#     for i in range(0, len(titles)):
+#         writer.writerow([i, doc_topic[i].argmax()])
+#         print("{} (top topic: {})".format(titles[i], doc_topic[i].argmax()))
+#         print(doc_topic[i].argsort()[::-1][:3])
